@@ -182,8 +182,9 @@ figcaption {
 
 /* Main */
 .project-grid {
-    justify-content: space-between !important;
+    justify-content: space-between;
 }
+
 
 .scroll-top {
     float: right;
