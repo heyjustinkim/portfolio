@@ -22,8 +22,8 @@ body {
     min-height: 100vh;
     
     /* Color */
-    color: #010043;
-    background-color: #fafafa;
+    color: 	#1D2B53 !important;
+    background-color: 	#FFF1E8 !important;
 }
 
 /* Type scale: Augmented Fourth (type-scale.com) */
@@ -63,7 +63,7 @@ p {
 }
 
 a, a:hover, a:active {
-    color: #010043 !important;
+    color:	#FF6E59 !important;
     transition: 0.15s ease-in-out;
 }
 
@@ -81,9 +81,10 @@ a:active, a:focus {
     margin: 1rem 0;
     padding: 0.75rem;
     
-    border: 0.125rem solid #010043;
-    border-bottom: 0.25rem solid #010043;
+    border: 0.125rem solid 	#FF6E59;
+    /* border-bottom: 0.25rem solid #FF77A8; */
     border-radius: 0.25rem;
+    /* background-color: 	#008751; */
     
     font-size: 1.25rem;
     text-decoration: none;
@@ -92,12 +93,15 @@ a:active, a:focus {
 }
 
 .cta:hover {
-    border: 0.25rem solid #010043;
+    border: 0.25rem solid #FF6E59;
     transition: 0.15s ease-in-out;
 }
 
+.cta:active {
+    border: 0.5rem solid #FF6E59;
+}
+
 .cta:active, .cta:focus {
-    border: 0.5rem solid #010043;
     transition: 0.15s ease-in-out;
 }
 
@@ -113,7 +117,7 @@ img {
     display: block;
     width: 100%;
     height: auto;
-    border: 0.125rem solid #010043;
+    border: 0.125rem solid 	#1D2B53;
     border-radius: 0.25rem;
 }
 
@@ -128,8 +132,8 @@ figure.with-caption > img {
 }
 
 figcaption {
-    background-color: #010043;
-    color: #fafafa;
+    background-color: 	#1D2B53;
+    color: 	#FFF1E8;
     text-align: center;
     font-size: 0.75rem;
     font-style: italic;
@@ -139,20 +143,24 @@ figcaption {
 
     /* Interactive images */
     .project.evidence {
-        border: 0.125rem solid #010043;
-        border-bottom: 0.25rem solid #010043;
+        border: 0.125rem solid #FF6E59;
+        /* border-bottom: 0.25rem solid 	#29ADFF; */
         transition: 0.15s ease-in-out;
     }
 
     .project.evidence:hover {
-        border: 0.5rem solid #010043;
+        border: 0.5rem solid #FF6E59;
         transition: 0.15s ease-in-out;
-}
+    }
 
-    .project.evidence:active, .project.evidence:focus {
-        border: 0.75rem solid #010043;
+    .project.evidence:active {
+        border: 0.75rem solid #FF6E59;
         transition: 0.15s ease-in-out;
-}
+    }
+
+    .project.evidence:focus {
+        transition: 0.15s ease-in-out;
+    }
 
     .evidence-link:hover {
         background-color: transparent;
@@ -199,16 +207,16 @@ figcaption {
 }
 
 .page-item {
-    border: 1px solid #010043;
+    border: 1px solid #FF6E59;
     border-radius: 0.25rem;
 }
 
 .page-item:hover {
-    border: 2px solid #010043;
+    border: 2px solid #FF6E59;
 }
 
-.page-item:active, .page-item:focus {
-    border: 4px solid #010043;
+.page-item:active {
+    border: 4px solid #FF6E59;
 }
 
 .page-item.disabled {
@@ -258,5 +266,5 @@ footer a:focus {
     width: 50%;
     height: 4vh;
     border: none;
-    fill: #010043;
+    fill: #FF6E59;
 }
