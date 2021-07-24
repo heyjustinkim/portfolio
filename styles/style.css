@@ -26,6 +26,21 @@ body {
     background-color: 	#FFF1E8 !important;
 }
 
+.navbar-brand.col {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo {
+    width: 100%;
+    /* height: 100%; */
+    border: none;
+}
+@media screen and (min-width: 576px) {
+    .logo {
+        width: 125%;
+    }
+}
+
 /* Type scale: Augmented Fourth (type-scale.com) */
 h1 {
     font-weight: 300;
