@@ -24,7 +24,14 @@ body {
     /* Color */
     color: 	#1D2B53 !important;
     background-color: 	#FFFFFF !important;
+    
+    /* background-image: url("../images/card_2.svg");
+    background-size: 3em; */
 }
+
+/* header, section, footer {
+    background-color: #FFFFFF;
+} */
 
 .navbar-brand.col {
     display: flex;
