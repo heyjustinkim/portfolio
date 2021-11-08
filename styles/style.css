@@ -55,18 +55,19 @@ body {
 
     float: left;
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 768px) {
     .navbar.container {
         align-items: flex-start;
-        height: 3rem;
+        height: 2.5rem;
     }
     
     .heyjustinkim-logo {
-        width: 8rem;
+        width: 8.5rem;
+        height: 2.25rem;
     }
     .heyjustinkim-logo:hover {
-        width: 9rem;
-        height: 3rem;
+        width: 9.5rem;
+        height: 2.5rem;
     }
 }
 
@@ -294,8 +295,8 @@ footer {
 }
 
 .a-wrap {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     flex-grow: 1;
 }
 
@@ -305,8 +306,8 @@ footer {
 
 /* Anchor */
 footer a {
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
 
     display: flex;
 
@@ -317,14 +318,14 @@ footer a {
 
 footer a:hover {
     background-color: transparent;
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 footer a:focus {
     background-color: transparent;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
 }
 
 .linkedin {
