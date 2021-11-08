@@ -33,23 +33,40 @@ body {
     background-color: #FFFFFF;
 } */
 
+.nav-menu {
+    height: 2rem; 
+}
+
 .navbar-brand.col {
     display: flex;
     justify-content: flex-start;
+    float: left;
 }
-.logo {
-    width: 100%;
-    /* height: 100%; */
+.heyjustinkim-logo {
+    width: 5.25rem;
+    height: 2rem;
+
     border: none;
+
+    background-image: url("../images/Logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    float: left;
 }
 @media screen and (min-width: 576px) {
-    .logo {
-        width: 125%;
-        transition: 0.15s ease-in-out;
+    .navbar.container {
+        align-items: flex-start;
+        height: 3rem;
     }
-    .logo:hover {
-        width: 130%;
-        transition: 0.15s ease-in-out;
+    
+    .heyjustinkim-logo {
+        width: 8rem;
+    }
+    .heyjustinkim-logo:hover {
+        width: 9rem;
+        height: 3rem;
     }
 }
 
@@ -272,34 +289,49 @@ footer {
     /* Flexbox */
     display: flex;
     justify-content: center;
+
+    margin-bottom: 1rem;
+}
+
+.a-wrap {
+    width: 3rem;
+    height: 3rem;
+    flex-grow: 1;
+}
+
+.center-div {
+    flex-grow: 1;
 }
 
 /* Anchor */
 footer a {
-    width: 50%;
+    width: 3rem;
+    height: 3rem;
+
     display: flex;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer a:hover {
     background-color: transparent;
+    width: 4rem;
+    height: 4rem;
 }
 
 footer a:focus {
     background-color: transparent;
+    width: 5rem;
+    height: 5rem;
 }
 
 .linkedin {
-    justify-content: flex-end;
+    background-image: url("../images/Contact\ Icons/linkedin.svg");
+    float: right;
 }
 
 .email {
-    justify-content: flex-start;
-}
-
-/* Icons */
-.icon {
-    width: 50%;
-    height: 4vh;
-    border: none;
-    fill: #FF6E59;
+    background-image: url("../images/Contact\ Icons/email.svg");
 }
