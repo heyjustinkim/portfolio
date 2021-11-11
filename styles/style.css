@@ -352,3 +352,11 @@ footer a:focus, footer a:active {
 .email {
     background-image: url("../images/Contact\ Icons/email.svg");
 }
+
+/* Icons */
+.icon {
+    width: 50%;
+    height: 4vh;
+    border: none;
+    fill: #FF6E59;
+}
