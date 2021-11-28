@@ -43,14 +43,19 @@ body {
     float: left;
 }
 
-/* .navbar.container {
-    align-items: center;
-    height: 2.125rem;
-} */
+.navbar.container {
+    flex-flow: column;
+    /* height: 6.374rem; */
+}
+
+.navbar-brand {
+    margin: 1rem 0rem;
+    margin-right: 0rem !important; 
+}
 
 .heyjustinkim-logo {
-    width: 5.25rem;
-    height: 2rem;
+    width: 10.244rem;
+    height: 5.374rem;
 
     border: none;
 
@@ -62,28 +67,25 @@ body {
     float: left;
 }
 
-/* .heyjustinkim-logo:hover {
-    width: 5.25rem;
-    height: 2.125rem;
-} */
+.heyjustinkim-logo:hover {
+    width: 11.244rem;
+    height: 6.374rem;
+}
+.heyjustinkim-logo:focus, .heyjustinkim-logo:active {
+    width: 12.488rem;
+    height: 7.748rem;
+}
 
 @media screen and (min-width: 768px) {
     .navbar.container {
         align-items: flex-start;
-        height: 2.5rem;
+        flex-flow: row;
+        height: 5.748rem;
     }
-    
-    .heyjustinkim-logo {
-        width: 8.5rem;
-        height: 2.25rem;
-    }
-    .heyjustinkim-logo:hover {
-        width: 9rem;
-        height: 2.35rem;
-    }
-    .heyjustinkim-logo:focus, .heyjustinkim-logo:active {
-        width: 9.5rem;
-        height: 2.5rem;
+
+    .navbar-brand {
+        margin: 0rem;
+        margin-right: 0rem !important; 
     }
 }
 
