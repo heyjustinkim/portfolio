@@ -10,7 +10,7 @@
 }
 
 html {
-    font: 1em/150% 'Lato', Helvetica, Arial, sans-serif;
+    font: 1em/175% 'Lato', Helvetica, Arial, sans-serif !important;
 }
 
 body {
@@ -25,6 +25,10 @@ body {
     color: 	#1D2B53 !important;
     background-color: 	#FFFFFF !important;
     
+    font-family: 'Lato', sans-serif;
+
+    line-height: 1.75 !important;
+
     /* background-image: url("../images/card_2.svg");
     background-size: 3em; */
 }
@@ -90,39 +94,41 @@ body {
 }
 
 /* Type scale: Augmented Fourth (type-scale.com) */
-h1 {
-    font-weight: 100 !important;
-    font-size: 2.688rem !important;
-    line-height: 172% !important;
-    letter-spacing: -0.02em !important;
-
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+h1, h2, h3, p, li {
+    font-family: 'Lato', sans-serif !important;
+    padding-top: 1rem !important; 
+    margin-bottom: 0.5rem !important;
+    /* margin: 1rem 0 0.5rem 0 !important; */
 }
 
-h2 {
-    font-weight: 400 !important;
-    font-size: 2.25rem !important;
-    line-height: 148% !important;
-    letter-spacing: 0.02em !important;
+h1, h2, h3 {
+    line-height: 1.5 !important;
+}
 
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
+h1 {
+    font-weight: 300 !important;
+    font-size: 3rem !important; /* 48px */
+    /* letter-spacing: -0.02rem !important; */
+
+    padding-top: 0 !important;
+} 
+
+h2 {
+    font-weight: 300 !important;
+    font-size: 2.25rem !important;
+    /* letter-spacing: 0.02rem !important; */
+
+    line-height: 1.56 !important;
 }
 
 h3 {
     font-weight: 300 !important;
-    font-size: 1.625rem !important;
-    line-height: 124% !important;
-    letter-spacing: 0.02rem !important;
-
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    font-size: 1.5rem !important;
+    /* letter-spacing: 0.02rem !important; */
 }
 
-p {    
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+p, li {    
+    padding-top: 0.5rem !important;
 }
 
 a, a:hover, a:active {
