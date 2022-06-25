@@ -17,7 +17,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 </head>
-<body class="mx-2 my-2 mx-sm-3 my-sm-3 mx-md-4 my-md-4 mx-lg-5 my-lg-5">
+<body class="mx-2 my-2 mx-sm-3 my-sm-3 mx-md-4 my-md-4 mx-lg-5 my-lg-5" data-bs-spy="scroll" data-bs-target="#spy" data-bs-offset="0" tabindex="0">
     <header class="navbar container">
         <div class="navbar-brand col">
             <a href="../index.html" class="heyjustinkim-logo"></a>
@@ -32,35 +32,73 @@
     </header>
 
     <main>
-        <article class="landing container my-5">
+        <article class="system container my-5">
             <section class="tagline row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h1>Design System</h1>
                     <p>Established the foundations of a scalable design system for an artificial intelligence platform.</p>
                 </div>
-                <figure class="col-md-6">
+                <figure class="col-md-8">
                     <img src="../images/Design System/system_all.png" alt="Figma file with type and layout systems." class="evidence">
                 </figure>
             </section>
 
-            <section class="overview my-5">
-                <div class="row my-4">
-                    <h2>Overview</h2>
-                    <p>Client: Altum, Inc. (Startup)</p>
-                    <!-- <p><time>Aug. 2020</time> – <time>Oct. 2020</time></p> -->
+            <section class="row row-cols-md-2 my-5">
+                <div class="col-md-4">
+                    <nav class="sticky-top navbar-nav" id="spy">
+                        <h2 >Table of contents</h2>
+                        <ul class="pagination flex-column">
+                            <li class="page-item nav-item">
+                                <a href="#overview" class="page-link nav-link">Overview</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#background" class="page-link nav-link">Background</a>
+                            </li>
+                            <li class="page-item  nav-item">
+                                <a href="#goals" class="page-link nav-link">Goals</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#process" class="page-link nav-link">Process</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#define" class="page-link nav-link">Define</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#ideate" class="page-link nav-link">Ideate</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#test" class="page-link nav-link">Test</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#observe" class="page-link nav-link">Observe</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#reflection" class="page-link nav-link">Reflection</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#next-steps" class="page-link nav-link">Next steps</a>
+                            </li>
+                            <!-- <li class="page-item nav-item">
+                                <a href="#other-projects" class="page-link nav-link">Other projects</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#hire" class="page-link nav-link">Let's get in touch!</a>
+                            </li> -->
+                        </ul>
+                    </nav>
                 </div>
 
-                <div class="row row-cols-md-2 my-4 align-items-start">
-                    <div class="col-md-6">
+                <div class="col-md-8">
+                    <div id="overview">
+                        <h2>Overview</h2>
+                        <p>Client: Altum, Inc. (Startup)</p>
+                        <!-- <p><time>Aug. 2020</time> – <time>Oct. 2020</time></p> -->
                         <h3>Summary</h3>
                         <ul class="summary">
                             <li class="summary-point">Jenni’s inconsistent visual design necessitated a design system that unified visual elements and streamlined design work.</li>
                             <!-- <li class="summary-point">Created type and layout systems that provided constraints when designing for multiple screens.</li> -->
                             <!-- <li class="summary-point">Testing showed less time spent addressing UI issues and improved consistency of visual appearance.</li> -->
                         </ul>
-                    </div>
-                
-                    <div class="col-md-6">
                         <h3>Roles</h3>
                         <ul class="summary">
                             <li class="summary-point">UX Designer, UI Designer</li>
@@ -68,154 +106,132 @@
                             <!-- <li class="summary-point">Created documentation and artifacts to onboard the next designer(s).</li> -->
                         </ul>
                     </div>
-                </div>
-            </section>
 
-            <section class="row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6 order-md-last">
-                    <h2>Background</h2>
-                    <p>When I first joined Altum, I quickly learned that the “design system” was a bare bones color palette.</p>
-                </div>
-                <figure class="with-caption col-md-6 order-md-first">
-                    <img src="../images/Design System/system_old.png" alt="Old design system cluttered with unrelated components." class="evidence">
-                    <figcaption>A screenshot of the old “design system”. The only part of it in use when I first joined was the color palette. </figcaption>
-                </figure>
-            </section>
-
-            <section class="row my-5">
-                <div class="col-md-6">
-                    <h2>Goals</h2>
-                    <p>I believed that starting a design system would result in faster launch time by way of less time spent designing while providing a more consistent visual branding across the experience/platform.</p>
-                </div>
-            </section>
-
-            <section class="row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6">
-                    <h2>Process</h2>
-                    <!-- <p>Altum’s design process starts with looping between Defining and Ideation before Testing and Observing.</p> -->
-                    <p class="mb-0">The steps of Altum's design process are:</p>
-                    <ul class="process">
-                        <li class="phase"><strong>Define.</strong> Defining our users and the MVP design.</li>
-                        <li class="phase"><strong>Ideate.</strong> Ideating on design possibilities.</li>
-                        <li class="phase"><strong>Test.</strong> Testing pre-release ideations.</li>
-                        <li class="phase"><strong>Observe.</strong> Observing post-release outcomes.</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <figure class="with-caption">
-                        <img src="../images/process.png" alt="A graphic showing a loop around Define and Ideate. Test and Observe aren't looped." class="evidence">
-                        <figcaption>The Altum design process.</figcaption>
-                    </figure>    
-                </div>
-            </section>
-
-            <section class="row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6 order-md-last">
-                    <h2>Define</h2>
-                    <!-- <p>Both designers and engineers needed visual context for certain changes and decisions rather than the existing batch of BDD’s (Behavioral Driven Development tests) that either lived on a bulky Google Doc file or too many separate files.</p> -->
-                    <p>I began by researching what exactly a design system is and the minimum I needed to make to get it going. </p>
-                </div>
-                <!-- <figure class="with-caption col-md-6 order-md-first">
-                    <img src="../images/Design System/bdd.png" alt="Table of various BDD files in Google Drive." class="evidence">
-                    <figcaption>The numerous BDD files we made. The other easy solution was to keep everything to a heavy document that became too cumbersome to search through in the long run.</figcaption>
-                </figure> -->
-            </section>
-
-            <section class="my-5">
-                <h2>Ideate</h2>
-                <p>Before I left Altum, I finished three fundamental aspects.</p>
-                <section class="inner row my-4 align-items-start">
-                    <div class="col-md-6">
-                        <p class=>A type system on an 8 point grid with a 4 point baseline.
-                             <!-- with each size as its own style that reduced the amount of time spent setting the correct fonts, font size units, size proportions, etc. -->
-                            </p>
-                        <figure>
-                            <img src="../images/Design System/system_type.png" alt="Closeup of the type system in Figma." class="evidence">
+                    <div id="background">
+                        <div class="order-md-last">
+                            <h2>Background</h2>
+                            <p>When I first joined Altum, I quickly learned that the “design system” was a bare bones color palette.</p>
+                        </div>
+                        <figure class="with-caption order-md-first">
+                            <img src="../images/Design System/system_old.png" alt="Old design system cluttered with unrelated components." class="evidence">
+                            <figcaption>A screenshot of the old “design system”. The only part of it in use when I first joined was the color palette. </figcaption>
                         </figure>
                     </div>
-                    <div class="col-md-6">
-                        <p>A layout system 
-                            <!-- for Extra Small (320px wide), Small (576px wide), Medium (768px wide), Large (992px wide), and Extra Large (1200px wide) devices  -->
-                            using a combination of a modular grid and baseline grid.</p>
-                        <figure>
-                            <img src="../images/Design System/system_layout.png" alt="Closeup of the layout system in Figma." class="evidenc">
-                        </figure>
-                    </div>
-                </section>
-                <section class="inner row my-4 align-items-start">
-                    <div class="col-md-6">
-                        <p>A rough draft of a conceptual model 
-                            <!-- based on playing cards  -->
-                            that provided a common metaphor 
-                            <!-- for everyone  -->
-                            to use during discussions.</p>
-                        <figure>
-                            <img src="../images/Design System/model.png" alt="Conceptual card model sheet with inspirations and rough mockups." class="evidence">
-                        </figure>
-                    </div>
-                </section>
-            </section>
 
-            <section class="row my-5 align-items-start">
-                <div class="col-md-6">
-                    <h2>Test</h2>
-                    <p>Testing saw me incorporating the design system’s new additions into my workflow. I also self-gauged using my designer’s intuition to check the feel of using the design system.
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <h2>Observe</h2>
-                    <p class="mb-0">Overall the design system foundation I created for Jenni was a start in the right direction:</p>
-                    <ul>
-                        <li>Features were rolling out faster than those in previous sprints.</li>
-                        <li>Jenni had the beginnings of a much-needed unified visual experience.</li>
-                    </ul>
-                </div>
-            </section>
+                    <div id="goals">
+                        <h2>Goals</h2>
+                        <p>I believed that starting a design system would result in faster launch time by way of less time spent designing while providing a more consistent visual branding across the experience/platform.</p>
+                    </div>
 
-            <section class="row my-5 align-items-start">
-                <div class="col-md-6">
-                    <h2>Reflection</h2>
-                    <p>Learning to create a design system was a challenging yet rewarding endeavor that showed me how difficult it can be to create a set of standards for a product’s visual design.</p>
-                </div>
-                <div class="col-md-6">
-                    <h2>Next steps</h2>
-                    <p class="mb-0">My next move with growing the design system would have been to:</p>
-                    <ul>
-                        <li>Recreate our most used design components.</li>
-                        <li>Create a collective sheet for ease of use.</li>
-                    </ul>
+                    <div id="process">
+                        <h2>Process</h2>
+                        <!-- <p>Altum’s design process starts with looping between Defining and Ideation before Testing and Observing.</p> -->
+                        <p class="mb-0">The steps of Altum's design process are:</p>
+                        <ul class="process">
+                            <li class="phase"><strong>Define.</strong> Defining our users and the MVP design.</li>
+                            <li class="phase"><strong>Ideate.</strong> Ideating on design possibilities.</li>
+                            <li class="phase"><strong>Test.</strong> Testing pre-release ideations.</li>
+                            <li class="phase"><strong>Observe.</strong> Observing post-release outcomes.</li>
+                        </ul>
+                        <figure class="with-caption">
+                            <img src="../images/process.png" alt="A graphic showing a loop around Define and Ideate. Test and Observe aren't looped." class="evidence">
+                            <figcaption>The Altum design process.</figcaption>
+                        </figure>  
+                    </div>
+
+                    <div id="define">
+                        <h2>Define</h2>
+                        <!-- <p>Both designers and engineers needed visual context for certain changes and decisions rather than the existing batch of BDD’s (Behavioral Driven Development tests) that either lived on a bulky Google Doc file or too many separate files.</p> -->
+                        <p>I began by researching what exactly a design system is and the minimum I needed to make to get it going. </p>
+                        <!-- <figure class="with-caption col-md-6 order-md-first">
+                        <img src="../images/Design System/bdd.png" alt="Table of various BDD files in Google Drive." class="evidence">
+                        <figcaption>The numerous BDD files we made. The other easy solution was to keep everything to a heavy document that became too cumbersome to search through in the long run.</figcaption>
+                        </figure> -->
+                    </div>
+
+                    <div id="ideate">
+                        <h2>Ideate</h2>
+                        <p>Before I left Altum, I finished three fundamental aspects.</p>
+                            <p class=>A type system on an 8 point grid with a 4 point baseline.
+                                    <!-- with each size as its own style that reduced the amount of time spent setting the correct fonts, font size units, size proportions, etc. -->
+                                </p>
+                            <figure>
+                                <img src="../images/Design System/system_type.png" alt="Closeup of the type system in Figma." class="evidence">
+                            </figure>
+                            <p>A layout system 
+                                <!-- for Extra Small (320px wide), Small (576px wide), Medium (768px wide), Large (992px wide), and Extra Large (1200px wide) devices  -->
+                                using a combination of a modular grid and baseline grid.</p>
+                            <figure>
+                                <img src="../images/Design System/system_layout.png" alt="Closeup of the layout system in Figma." class="evidenc">
+                            </figure>
+                            <p>A rough draft of a conceptual model 
+                                <!-- based on playing cards  -->
+                                that provided a common metaphor 
+                                <!-- for everyone  -->
+                                to use during discussions.</p>
+                            <figure>
+                                <img src="../images/Design System/model.png" alt="Conceptual card model sheet with inspirations and rough mockups." class="evidence">
+                            </figure>
+                    </div>
+
+                    <div id="test">
+                        <h2>Test</h2>
+                        <p>Testing saw me incorporating the design system’s new additions into my workflow. I also self-gauged using my designer’s intuition to check the feel of using the design system.
+                        </p>
+                    </div>
+
+                    <div id="observe">
+                        <h2>Observe</h2>
+                        <p class="mb-0">Overall the design system foundation I created for Jenni was a start in the right direction:</p>
+                        <ul>
+                            <li>Features were rolling out faster than those in previous sprints.</li>
+                            <li>Jenni had the beginnings of a much-needed unified visual experience.</li>
+                        </ul>
+                    </div>
+
+                    <div id="reflection">
+                        <h2>Reflection</h2>
+                        <p>Learning to create a design system was a challenging yet rewarding endeavor that showed me how difficult it can be to create a set of standards for a product’s visual design.</p>
+                    </div>
+
+                    <div id="next-steps">
+                        <h2>Next steps</h2>
+                        <p class="mb-0">My next move with growing the design system would have been to:</p>
+                        <ul>
+                            <li>Recreate our most used design components.</li>
+                            <li>Create a collective sheet for ease of use.</li>
+                        </ul>
+                    </div>
+
+                    <div id="other-projects" class="my-5">
+                        <h2 class="mb-4">Other projects</h2>
+                        <ul class="pagination">
+                            <li class="page-item me-2 mb-2">
+                                <a href="./altum.html" class="page-link">2. Altum Inc.</a>
+                            </li>
+                            <li class="page-item disabled me-2 mb-2">
+                                <a href="#" class="page-link active disabled">3. Design System</a>
+                            </li>
+                            <li class="page-item me-2 mb-2">
+                                <a href="./dashboard.html" class="page-link">4. Dashboard Design</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div id="hire" class="hire my-5">
+                        <h2>Let's get in touch!</h2>
+                        <p>Feel free to message me about any AI or UX-related jobs I can do for you.</p>
+                        <p class="mb-5">I'd also love to learn about your favorite games and/or detective novels.</p>
+                        <a href="https://www.linkedin.com/in/heyjustinkim/" class="cta" target="_blank">Connect on LinkedIn</a>
+                    </div>
+
+                    <div class="container">
+                        <a href="#" class="scroll-top">^ Back to top</a>
+                        <!-- <a href="#top" class="cta scroll-top">Back to top</a> -->
+                    </div>
                 </div>
             </section>
         </article>
-
-        <nav class="container my-5">
-            <h2 class="mb-4">Other projects</h2>
-            <ul class="pagination nav flex-md-row">
-                <li class="page-item me-2 mb-2">
-                    <a href="./altum.html" class="page-link">2. Altum Inc.</a>
-                </li>
-                <li class="page-item disabled me-2 mb-2">
-                    <a href="#" class="page-link disabled">3. Design System</a>
-                </li>
-                <li class="page-item me-2 mb-2">
-                    <a href="./dashboard.html" class="page-link">4. Dashboard Design</a>
-                </li>
-            </ul>
-        </nav>
-        
-        <article class="hire container my-5">
-            <section class="hire mt-4 mb-5">
-                <h2>Let's get in touch!</h2>
-                <p>Feel free to message me about any AI or UX-related jobs I can do for you.</p>
-                <p>I'd also love to learn about your favorite games and/or detective novels.</p>
-            </section>
-            <a href="https://www.linkedin.com/in/heyjustinkim/" class="cta" target="_blank">Connect on LinkedIn</a>
-        </article>
-        
-        <div class="container">
-            <a href="#top" class="scroll-top">^ Back to top</a>
-            <!-- <a href="#top" class="cta scroll-top">Back to top</a> -->
-        </div>
     </main>
 
     <footer class="contact container mt-5">
@@ -229,5 +245,9 @@
             <a href="mailto: heyjustinkim@gmail.com" class="email"></a>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>

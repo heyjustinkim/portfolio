@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 </head>
-<body class="mx-2 my-2 mx-sm-3 my-sm-3 mx-md-4 my-md-4 mx-lg-5 my-lg-5" id="top">
+<body class="mx-2 my-2 mx-sm-3 my-sm-3 mx-md-4 my-md-4 mx-lg-5 my-lg-5" data-bs-spy="scroll" data-bs-target="#spy" data-bs-offset="0" tabindex="0">
     <header class="navbar container">
         <div class="navbar-brand col">
             <a href="../index.html" class="heyjustinkim-logo"></a>
@@ -33,31 +33,71 @@
     <main>
         <article class="editor container my-5">
             <section class="tagline row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h1>AI Word Processor</h1>
                     <p>Improving usability with AI tools for content writers.</p>
                 </div>
-                <figure class="col-md-6">
+                <figure class="col-md-8">
                     <img src="../images/Editor/editor.png" alt="A screenshot of Jenni's AI-powered word processor." class="evidence">
                 </figure>
             </section>
 
-            <section class="overview my-5">
-               <div class="row my-4">
-                    <h2>Overview</h2>
-                    <p>Client: Altum, Inc. (Startup)</p>
-                    <!-- <p><time>Nov. 2019</time> – <time>Oct. 2020</time></p> -->
-               </div>
-               <div class="row row-cols-md-2 my-4 align-items-start">
-                    <div class="col-md-6">
+            <section class="row row-cols-md-2 my-5">
+                <div class="col-md-4">
+                    <nav class="sticky-top navbar-nav" id="spy">
+                        <h2 >Table of contents</h2>
+                        <ul class="pagination flex-md-column">
+                            <li class="page-item nav-item">
+                                <a href="#overview" class="page-link nav-link">Overview</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#background" class="page-link nav-link">Background</a>
+                            </li>
+                            <li class="page-item  nav-item">
+                                <a href="#goals" class="page-link nav-link">Goals</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#process" class="page-link nav-link">Process</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#define" class="page-link nav-link">Define</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#ideate" class="page-link nav-link">Ideate</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#test" class="page-link nav-link">Test</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#observe" class="page-link nav-link">Observe</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#reflection" class="page-link nav-link">Reflection</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#next-steps" class="page-link nav-link">Next steps</a>
+                            </li>
+                            <!-- <li class="page-item nav-item">
+                                <a href="#other-projects" class="page-link nav-link">Other projects</a>
+                            </li>
+                            <li class="page-item nav-item">
+                                <a href="#hire" class="page-link nav-link">Let's get in touch!</a>
+                            </li> -->
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-8">
+                    <div id="overview">
+                        <h2>Overview</h2>
+                        <p>Client: Altum, Inc. (Startup)</p>
+                        <!-- <p><time>Nov. 2019</time> – <time>Oct. 2020</time></p> -->
                         <h3>Summary</h3>
                         <ul class="summary">
                             <!-- <li class="summary-point">Worked in rapid iterative sprints to improve the word processor where Jenni’s AI tools live.</li> -->
                             <li class="summary-point">Collaboratively created 6 crucial features to assist with faster article delivery.</li>
                             <!-- <li class="summary-point">Initially offered tools for content writers but expanded to SEO marketers when Altum transitioned to a SaaS business model.</li> -->
                         </ul>
-                    </div>
-                    <div class="col-md-6">
                         <h3>Roles</h3>
                         <ul class="summary">
                             <li class="summary-point">UX Designer, UI Designer, User Researcher</li>
@@ -66,173 +106,149 @@
                             <li class="summary-point">Incorporated and tested AI tools for increasing writers’ efficiency.</li> -->
                         </ul>
                     </div>
-                </div>
-            </section>
 
-            <section class="row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6 order-md-last">
-                    <h2>Background</h2>
-                    <p>With complaints about our articles’ quality and delivery time, Altum looked to research, design, and test AI tools for its content writing service, Jenni AI, that would help improve Jenni’s word processor.</p>
-                </div>
-                <figure class="with-caption col-md-6 order-md-first">
-                    <img src="../images/Editor/complaints.PNG" alt="A dash list of text showing client complaints." class="evidence">
-                    <figcaption>A list of client complaints we compiled into our sprint report.</figcaption>
-                </figure>
-            </section> 
+                    <div id="background">
+                        <h2>Background</h2>
+                        <p>With complaints about our articles’ quality and delivery time, Altum looked to research, design, and test AI tools for its content writing service, Jenni AI, that would help improve Jenni’s word processor.</p>
+                        <figure class="with-caption col-md-6 order-md-first">
+                            <img src="../images/Editor/complaints.PNG" alt="A dash list of text showing client complaints." class="evidence">
+                            <figcaption>A list of client complaints we compiled into our sprint report.</figcaption>
+                        </figure>
+                    </div>
 
-            <section class="row my-5">
-                <div class="col-md-6">
-                    <h2>Goals</h2>
-                    <p>We hypothesized that proper AI features would help content writers deliver high quality articles faster and decrease the number of client complaints about late articles.</p>
-                </div>
-            </section>
+                    <div id="goals">
+                        <h2>Goals</h2>
+                        <p>We hypothesized that proper AI features would help content writers deliver high quality articles faster and decrease the number of client complaints about late articles.</p>
+                    </div>
 
-            <section class="row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6">
-                    <h2>Process</h2>
-                    <!-- <p>Altum’s design process starts with looping between Defining and Ideation before Testing and Observing.</p> -->
-                    <p class="mb-0">The steps of Altum's design process are:</p>
-                    <ul class="process">
-                        <li class="phase"><strong>Define.</strong> Defining our users and the MVP design.</li>
-                        <li class="phase"><strong>Ideate.</strong> Ideating on design possibilities.</li>
-                        <li class="phase"><strong>Test.</strong> Testing pre-release ideations.</li>
-                        <li class="phase"><strong>Observe.</strong> Observing post-release outcomes.</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <figure class="with-caption">
-                        <img src="../images/process.png" alt="A graphic showing a loop around Define and Ideate. Test and Observe aren't looped." class="evidence">
-                        <figcaption>The Altum design process.</figcaption>
-                    </figure>    
-                </div>
-            </section>
+                    <div id="process">
+                        <h2>Process</h2>
+                        <!-- <p>Altum’s design process starts with looping between Defining and Ideation before Testing and Observing.</p> -->
+                        <p class="mb-0">The steps of Altum's design process are:</p>
+                        <ul class="process">
+                            <li class="phase"><strong>Define.</strong> Defining our users and the MVP design.</li>
+                            <li class="phase"><strong>Ideate.</strong> Ideating on design possibilities.</li>
+                            <li class="phase"><strong>Test.</strong> Testing pre-release ideations.</li>
+                            <li class="phase"><strong>Observe.</strong> Observing post-release outcomes.</li>
+                        </ul>
+                        <figure class="with-caption">
+                            <img src="../images/process.png" alt="A graphic showing a loop around Define and Ideate. Test and Observe aren't looped." class="evidence">
+                            <figcaption>The Altum design process.</figcaption>
+                        </figure>    
+                    </div>
 
-            <section class="row row-cols-md-2 my-5 align-items-start">
-                <div class="col-md-6 order-md-last">
-                    <h2>Define</h2>
-                    <p class="mb-0">Our first move was to interview content writers who noted issues such as:</p>
-                    <ul>
-                        <li>Difficulties in adapting references into articles.</li>
-                        <li>Lowering the plagiarism score.</li>
-                    </ul>
-                </div>
-                <figure class="with-caption col-md-6 order-md-first">
-                    <img src="../images/Editor/interview.png" alt="Notes on the UX for one of Jenni's AI tools." class="evidence">
-                    <figcaption>Excerpt of user interview notes regarding trouble with lowering the plagiarism score.</figcaption>
-                </figure>
-            </section>
+                    <div id="define">
+                        <h2>Define</h2>
+                        <p class="mb-0">Our first move was to interview content writers who noted issues such as:</p>
+                        <ul>
+                            <li>Difficulties in adapting references into articles.</li>
+                            <li>Lowering the plagiarism score.</li>
+                        </ul>
+                        <figure class="with-caption col-md-6 order-md-first">
+                            <img src="../images/Editor/interview.png" alt="Notes on the UX for one of Jenni's AI tools." class="evidence">
+                            <figcaption>Excerpt of user interview notes regarding trouble with lowering the plagiarism score.</figcaption>
+                        </figure>
+                    </div>
 
-            <section class="my-5">
-                <section class="row row-cols-md-2 align-items-start">
-                    <div class="col-md-6">
+                    <div id="ideate">
                         <h2>Ideate</h2>
                         <p>I shared low and high-fidelity wireframes for feedback on each AI tool.</p>
                         <p>The AI tools addressed the various problems writers faced and addressed business needs as well.</p>
+                        <figure class="with-caption">
+                            <img src="../images/Editor/paraphrase_modal.png" alt="A dialog box comparing two versions of text." class="evidence">
+                            <figcaption>The Paraphrasing tool that restructured existing text into new plagiarism-free text.</figcaption>
+                        </figure>
+                        <figure class="with-caption6">
+                            <img src="../images/Editor/readability1.png" alt="Text highlighted in various colors with sidebar details." class="evidence">
+                            <figcaption>The Readability tool tackled the issue of lowering plagiarism scores by giving writers clear feedback.</figcaption>
+                        </figure>
+                        <figure class="with-caption">
+                            <img src="../images/Editor/readability2.png" alt="Text highlighted in green with previous versions in the sidebar." class="evidence">
+                            <figcaption>The Simplifier also expedited lowering plagiarism scores by rewording input text to simplify it.</figcaption>
+                        </figure>
+                        <figure class="with-caption">
+                            <img src="../images/Editor/paraphrase_side.png" alt="A paraphrasing tool currently in process of altering text." class="evidence">
+                            <figcaption>The Scraper automated referencing articles by copying text directly into the word processor.</figcaption>
+                        </figure>
+                        <figure class="with-caption">
+                            <img src="../images/Editor/express.png" alt="A dialog box letting users enter the article's title and primary keywords." class="evidence">
+                            <figcaption>The Express modal, while not an AI tool, organized the AI tools in a more intuitive way.</figcaption>
+                        </figure>
                     </div>
-                    <figure class="with-caption col-md-6">
-                        <img src="../images/Editor/paraphrase_modal.png" alt="A dialog box comparing two versions of text." class="evidence">
-                        <figcaption>The Paraphrasing tool that restructured existing text into new plagiarism-free text.</figcaption>
-                    </figure>
-                    <figure class="with-caption col-md-6">
-                        <img src="../images/Editor/readability1.png" alt="Text highlighted in various colors with sidebar details." class="evidence">
-                        <figcaption>The Readability tool tackled the issue of lowering plagiarism scores by giving writers clear feedback.</figcaption>
-                    </figure>
-                    <figure class="with-caption col-md-6">
-                        <img src="../images/Editor/readability2.png" alt="Text highlighted in green with previous versions in the sidebar." class="evidence">
-                        <figcaption>The Simplifier also expedited lowering plagiarism scores by rewording input text to simplify it.</figcaption>
-                    </figure>
-                    <figure class="with-caption col-md-6">
-                        <img src="../images/Editor/paraphrase_side.png" alt="A paraphrasing tool currently in process of altering text." class="evidence">
-                        <figcaption>The Scraper automated referencing articles by copying text directly into the word processor.</figcaption>
-                    </figure>
-                    <figure class="with-caption col-md-6">
-                        <img src="../images/Editor/express.png" alt="A dialog box letting users enter the article's title and primary keywords." class="evidence">
-                        <figcaption>The Express modal, while not an AI tool, organized the AI tools in a more intuitive way.</figcaption>
-                    </figure>
-                </section>
-            </section>
 
-            <section class="row my-5 align-items-start">
-                <div class="col-md-6 order-md-last">
-                    <h2>Test</h2>
-                    <p class="mb-0">We optimized for the most results with the least investment by conducting budget usability tests.
-                         <!-- using: -->
-                        </p>
-                    <!-- <ul>
-                        <li>User interviews</li>
-                        <li>Task-based scenarios</li>
-                        <li>A think-aloud procedure</li>
-                    </ul> -->
-                </div>
-                <figure class="with-caption col-md-6 order-md-first">
-                    <img src="../images/Editor/usertest.png" alt="Screen capture of a user inspecting two versions of text." class="evidence">
-                    <figcaption>A screenshot of a user test with the subject completing tasks based on a scenario.</figcaption>
-                </figure>
-            </section>
+                    <div id="test">
+                        <h2>Test</h2>
+                        <p class="mb-0">We optimized for the most results with the least investment by conducting budget usability tests.
+                             <!-- using: -->
+                            </p>
+                        <!-- <ul>
+                            <li>User interviews</li>
+                            <li>Task-based scenarios</li>
+                            <li>A think-aloud procedure</li>
+                        </ul> -->
+                        <figure class="with-caption col-md-6 order-md-first">
+                            <img src="../images/Editor/usertest.png" alt="Screen capture of a user inspecting two versions of text." class="evidence">
+                            <figcaption>A screenshot of a user test with the subject completing tasks based on a scenario.</figcaption>
+                        </figure>
+                    </div>
 
-            <section class="row my-5">
-                <div class="col-md-6">
-                    <h2>Observe</h2>
-                    <p class="mb-0">We tracked:</p>
-                    <ul>
-                        <li>The number of late articles to measure writing time.</li>
-                        <li>The number of client complaints.</li>
-                    </ul>
-                    <p class="mb-0">Subsequently our results showed that:</p>
-                    <ul>
-                        <li>Overall writing time didn’t go down.</li>
-                        <li>The number of client complaints didn’t go down.</li>
-                    </ul>
-                </div>
-            </section>
+                    <div id="observe">
+                        <h2>Observe</h2>
+                        <p class="mb-0">We tracked:</p>
+                        <ul>
+                            <li>The number of late articles to measure writing time.</li>
+                            <li>The number of client complaints.</li>
+                        </ul>
+                        <p class="mb-0">Subsequently our results showed that:</p>
+                        <ul>
+                            <li>Overall writing time didn’t go down.</li>
+                            <li>The number of client complaints didn’t go down.</li>
+                        </ul>
+                    </div>
 
-            <section class="row my-5 align-items-start">
-                <div class="col-md-6">
-                    <h2>Reflection</h2>
-                    <p>The AI-Powered Word Processor didn’t meet its success metrics because the field of designing for AI usability is still new and the technology itself has a ways to go.</p>
-                </div>
-                <figure class="with-caption col-md-6">
-                    <img src="../images/Editor/problems.png" alt="Excerpt of a report that lists issues relating to clients." class="evidence">
-                    <figcaption>A sample of the many struggles Altum faced to improve Jenni’s AI tools.</figcaption>
-                </figure>
-            </section>
+                    <div id="reflection">
+                        <h2>Reflection</h2>
+                        <p>The AI-Powered Word Processor didn’t meet its success metrics because the field of designing for AI usability is still new and the technology itself has a ways to go.</p>
+                        <figure class="with-caption">
+                            <img src="../images/Editor/problems.png" alt="Excerpt of a report that lists issues relating to clients." class="evidence">
+                            <figcaption>A sample of the many struggles Altum faced to improve Jenni’s AI tools.</figcaption>
+                        </figure>
+                    </div>
 
-            <section class="row my-5">
-                <div class="col-md-6">
-                    <h2>Next steps</h2>
-                    <p>My next steps would’ve been to continue researching into improving the usability of our AI tools.</p>
+                    <div id="next-steps">
+                        <h2>Next steps</h2>
+                        <p>My next steps would’ve been to continue researching into improving the usability of our AI tools.</p>
+                    </div>
+
+                    <nav id="other-projects" class="my-5">
+                        <h2 class="mb-4">Other projects</h2>
+                        <ul class="pagination nav">
+                            <li class="page-item me-2 mb-2">
+                                <a href="./landing.html" class="page-link">5. Landing Site Design</a>
+                            </li>
+                            <li class="page-item me-2 mb-2">
+                                <a href="./readability.html" class="page-link">6. EasyRead</a>
+                            </li>
+                            <li class="page-item disabled me-2 mb-2">
+                                <a href="#" class="page-link active disabled">7. AI Word Processor</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <div id="hire" class="hire my-5">
+                        <h2>Let's get in touch!</h2>
+                        <p>Feel free to message me about any AI or UX-related jobs I can do for you.</p>
+                        <p class="mb-5">I'd also love to learn about your favorite games and/or detective novels.</p>
+                        <a href="https://www.linkedin.com/in/heyjustinkim/" class="cta" target="_blank">Connect on LinkedIn</a>
+                    </div>
+
+                    <div class="container">
+                        <a href="#" class="scroll-top">^ Back to top</a>
+                        <!-- <a href="#top" class="cta scroll-top">Back to top</a> -->
+                    </div>
                 </div>
-            </section>
+            </section> 
         </article>
-
-        <nav class="container my-5">
-            <h2 class="mb-4">Other projects</h2>
-            <ul class="pagination nav flex-md-row">
-                <li class="page-item me-2 mb-2">
-                    <a href="./landing.html" class="page-link">5. Landing Site Design</a>
-                </li>
-                <li class="page-item me-2 mb-2">
-                    <a href="./readability.html" class="page-link">6. EasyRead</a>
-                </li>
-                <li class="page-item disabled me-2 mb-2">
-                    <a href="#" class="page-link disabled">7. AI Word Processor</a>
-                </li>
-            </ul>
-        </nav>
-
-        <article class="hire container my-5">
-            <section class="hire mt-4 mb-5">
-                <h2>Let's get in touch!</h2>
-                <p>Feel free to message me about any AI or UX-related jobs I can do for you.</p>
-                <p>I'd also love to learn about your favorite games and/or detective novels.</p>
-            </section>
-            <a href="https://www.linkedin.com/in/heyjustinkim/" class="cta" target="_blank">Connect on LinkedIn</a>
-        </article>
-        
-        <div class="container">
-            <a href="#top" class="scroll-top">^ Back to top</a>
-            <!-- <a href="#top" class="cta scroll-top">Back to top</a> -->
-        </div>
     </main>
 
     <footer class="contact container mt-5">
@@ -246,5 +262,9 @@
             <a href="mailto: heyjustinkim@gmail.com" class="email"></a>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
