@@ -1,0 +1,41 @@
+---
+import { SITE } from "@config";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+import Layout from "./Layout.astro";
+import CTA from "@components/CTA.astro";
+import TopButton from "@components/TopButton.astro";
+
+export interface Props {
+  frontmatter: {
+    title: string;
+    description?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | ${SITE.title}`}>
+  <Header activeNav="resume" />
+  <Breadcrumbs />
+  <main id="main-content">
+    <section id="resume" class="prose mb-28 max-w-3xl prose-img:border-0">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">{frontmatter.title}</h1>
+      <slot />
+    </section>
+    <TopButton />
+  </main>
+  <CTA />
+  <Footer />
+</Layout>
+
+<style>
+  h5 {
+    @apply italic font-bold !important;
+  }
+  main {
+    @apply mx-auto w-full max-w-3xl px-4 pb-12;
+  }
+</style>

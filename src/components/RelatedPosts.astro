@@ -1,0 +1,47 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import getPostsBy2Tags from "@utils/getPostsBy2Tags";
+import getUniqueTags from "@utils/getUniqueTags";
+import getSortedPosts from "@utils/getSortedPosts";
+import slugify, { slugifyStr } from "@utils/slugify";
+import Card from "@components/Card";
+import Hr from "./Hr.astro";
+
+export interface Props {
+    post: CollectionEntry<"blog">;
+    tag1: string;
+    tag2: string;
+  }
+
+const { tag1, tag2 } = Astro.props;
+
+// const primaryTag = {
+//   tags.map(tag => slugifyStr(tag))
+// };
+
+const primaryTag = tag1;
+const secondaryTag = tag2;
+
+const posts = await getCollection("blog", ({ data }) => !data.draft);
+
+const tagPosts = getPostsBy2Tags(posts, primaryTag, secondaryTag);
+
+const sortTagsPost = getSortedPosts(tagPosts);
+---
+
+<Hr noPadding/>
+
+<ul class="wrapper">
+    <h2>Related posts</h2>
+    {
+      sortTagsPost.map(({ data }) => (
+        <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
+      ))
+    }
+</ul>
+
+<style>
+  .wrapper {
+    @apply mt-8;
+  }
+</style>

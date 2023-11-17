@@ -1,0 +1,25 @@
+---
+import LinkButton from "./LinkButton.astro";
+import Hr from "./Hr.astro";
+---
+
+<div class="cta-wrapper">
+    <Hr noPadding />
+    <div class="cta-text">
+        <h2>Let's get in touch!</h2>
+        <p><LinkButton className="hover:text-skin-accent underline underline-offset-4 decoration-dashed" href="https://www.linkedin.com/in/heyjustinkim/">Connect with me on LinkedIn</LinkButton> and let me know about any AI or UX-related jobs I can help you with.</p>
+        
+    </div>
+</div>
+
+<style>
+    .cta-wrapper {
+        @apply mx-auto w-full max-w-3xl px-4 pb-8;
+    }
+    .cta-text {
+        @apply pt-12 pb-4;
+    }
+    h2 {
+        @apply text-2xl font-semibold tracking-wide pb-3;
+    }
+</style>

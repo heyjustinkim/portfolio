@@ -1,0 +1,87 @@
+---
+import { type CollectionEntry, getCollection } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Main from "@layouts/Main.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import Card from "@components/Card";
+import getUniqueTags from "@utils/getUniqueTags";
+import getPostsByTag from "@utils/getPostsByTag";
+import getPostsBy2Tags from "@utils/getPostsBy2Tags"
+import getPostsBy3Tags from "@utils/getPostsBy3Tags"
+import slugify from "@utils/slugify";
+import { SITE } from "@config";
+import getSortedPosts from "@utils/getSortedPosts";
+import Hr from "@components/Hr.astro";
+
+export interface Props {
+  post: CollectionEntry<"blog">;
+  tag: string;
+}
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  const tags = getUniqueTags(posts);
+
+  return tags.map(tag => {
+    return {
+      params: { tag },
+      props: { tag },
+    };
+  });
+}
+
+const primaryTag = "project"
+const secondaryTag1 = "ux"
+const secondaryTag2 = "interactive-fiction"
+const tertiaryTag = "showcase"
+// const desiredTags1 = ["project", "ux", "showcase"];
+// const desiredTags2 = ["project", "interactive-fiction", "showcase"];
+
+const posts = await getCollection("blog", ({ data }) => !data.draft);
+
+// const tagPosts1 = getPostsBy2Tags(posts, primaryTag, secondaryTag1);
+// const tagPosts2 = getPostsBy2Tags(posts, primaryTag, secondaryTag2);
+const tagPosts1 = getPostsBy3Tags(posts, primaryTag, secondaryTag1, tertiaryTag);
+const tagPosts2 = getPostsBy3Tags(posts, primaryTag, secondaryTag2, tertiaryTag);
+
+const sortTagsPost1 = getSortedPosts(tagPosts1);
+const sortTagsPost2 = getSortedPosts(tagPosts2);
+---
+
+<Layout title={`Projects | ${SITE.title}`}>
+  <Header activeNav="projects" />
+  <Main
+    pageTitle="Projects"
+    pageDesc="Some of the projects I've worked on."
+  >
+    <!-- <h1 slot="title" transition:name={tag1}>{`Tag:${tag1}`}</h1> -->
+    <div class="mb-12">
+      <h2 class="text-2xl font-semibold tracking-wide mt-12" slot="title">User Experience</h2>
+      <p class="my-2">A selection of UX work I've done so far.</p>
+      <ul>
+        {
+          sortTagsPost1.map(({ data }) => (
+            <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
+          ))
+        }
+      </ul>
+    </div>
+
+    <Hr noPadding/>
+
+    <div>
+      <h2 class="text-2xl font-semibold tracking-wide mt-12" slot="title">Interactive Fiction (IF)</h2>
+      <p class="my-2">A selection of IF games I've made so far.</p>
+      <ul>
+        {
+          sortTagsPost2.map(({ data }) => (
+            <Card href={`/posts/${slugify(data)}`} frontmatter={data} />
+          ))
+        }
+      </ul>
+    </div>
+  </Main>
+  <Footer />
+</Layout>
