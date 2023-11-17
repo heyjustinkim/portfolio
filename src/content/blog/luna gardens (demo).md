@@ -19,7 +19,9 @@ ogImage: ./public/astropaper-og.jpg
 
 ## Table of contents
 
-_Note: This article was originally posted on [intfiction.org](https://intfiction.org/t/brustins-introcomp-2023-thread-feedback-for-entrants-and-the-comp-a-post-mortem/64301/21?u=bruhstin)._
+## Note
+
+*This article was originally posted on [intfiction.org](https://intfiction.org/t/brustins-introcomp-2023-thread-feedback-for-entrants-and-the-comp-a-post-mortem/64301/21?u=bruhstin).*
 
 ## Where to begin…
 

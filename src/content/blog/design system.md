@@ -14,7 +14,6 @@ cover: /assets/system_all.png
 coverAlt: Figma file with type and layout systems.
 ogImage: ./public/astropaper-og.jpg
 ---
-
 ![Figma file with type and layout systems.](/assets/system_all.png)
 
 ## Table of contents
@@ -65,11 +64,11 @@ I began by researching what exactly a design system is and the minimum I needed 
 
 Before I left Altum, I finished three fundamental aspects.
 
-![Closeup of the type system in Figma.](@assets/images/design_system/system_type.png)
 
+![Closeup of the type system in Figma.](@assets/images/design_system/system_type.png)
 <p class="post-image">A type system on an 8 point grid with a 4 point baseline.</p>
 
-![Closeup of the layout system in Figma.](https://www.heyjustinkim.com/images/Design%20System/system_layout.png)
+![Closeup of the layout system in Figma.](@assets/images/design_system/system_layout.png)
 
 <p class="post-image">A layout system using a combination of a modular grid and baseline grid.</p>
 
