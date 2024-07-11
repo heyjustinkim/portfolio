@@ -4,7 +4,8 @@ import Hr from "./Hr.astro";
 import LinkButton from "./LinkButton.astro";
 
 export interface Props {
-  activeNav?: "projects" | "posts" | "about" | "resume" | "tags" | "search";
+  // activeNav?: "projects" | "posts" | "about" | "resume" | "tags" | "search";
+  activeNav?: "projects" | "about";
 }
 
 const { activeNav } = Astro.props;
@@ -60,27 +61,27 @@ const { activeNav } = Astro.props;
               Projects
             </a>
           </li>
-            <li>
+          <!-- <li>
             <a href="/posts" class={activeNav === "posts" ? "active" : ""}>
               Posts
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="/about" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="/resume" class={activeNav === "resume" ? "active" : ""}>
               Résumé
             </a>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
               Tags
             </a>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <LinkButton
               href="/search"
               className={`focus-outline p-3 sm:p-1 ${
@@ -97,7 +98,7 @@ const { activeNav } = Astro.props;
                 ></path>
               </svg>
             </LinkButton>
-          </li>
+          </li> -->
           <li>
             {
               SITE.lightAndDarkMode && (
