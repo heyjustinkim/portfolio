@@ -9,19 +9,18 @@ tags:
   - project
   - interactive-fiction
   - showcase
+  - game
 description: A post-mortem of my entry for IntroComp 2023.
-cover: /assets/luna-gardens-cover.jpg
+cover: ../src/assets/images/luna-gardens/luna-gardens-cover.jpg
 coverAlt: White text saying "Luna Gardens" next to a white crescent moon on a black background.
 ogImage: ./public/astropaper-og.jpg
 ---
 
-![White text saying 'Luna Gardens' next to a white crescent moon on a black background.](/assets/luna-gardens-cover.jpg)
+![White text saying 'Luna Gardens' next to a white crescent moon on a black background.](@assets/images/luna-gardens/luna-gardens-cover.jpg)
 
 ## Table of contents
 
-## Note
-
-*This article was originally posted on [intfiction.org](https://intfiction.org/t/brustins-introcomp-2023-thread-feedback-for-entrants-and-the-comp-a-post-mortem/64301/21?u=bruhstin).*
+_Note: This article was originally posted on [intfiction.org](https://intfiction.org/t/brustins-introcomp-2023-thread-feedback-for-entrants-and-the-comp-a-post-mortem/64301/21?u=bruhstin)._
 
 ## Where to begin…
 
