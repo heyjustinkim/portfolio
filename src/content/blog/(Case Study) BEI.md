@@ -11,7 +11,7 @@ tags:
   - UX_Design
   - UX
 description: Brought a consulting firm's website into the modern age.
-cover: ./public/assets/feature.png
+cover: /assets/feature.png
 coverAlt: Hero section of a website with text next to an image.
 ogImage: ./public/astropaper-og.jpg
 ---

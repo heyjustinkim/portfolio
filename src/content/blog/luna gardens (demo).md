@@ -11,7 +11,7 @@ tags:
   - showcase
   - game
 description: A post-mortem of my entry for IntroComp 2023.
-cover: ./public/assets/luna-gardens-cover.jpg
+cover: /assets/luna-gardens-cover.jpg
 coverAlt: White text saying "Luna Gardens" next to a white crescent moon on a black background.
 ogImage: ./public/astropaper-og.jpg
 ---

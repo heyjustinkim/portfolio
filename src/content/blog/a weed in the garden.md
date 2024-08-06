@@ -11,7 +11,7 @@ tags:
   - showcase
   - game
 description: Let go.
-cover: ./public/assets/weed-garden-cover.png
+cover: /assets/weed-garden-cover.png
 coverAlt: Title text above 4 icons.
 ogImage: ./public/astropaper-og.jpg
 ---

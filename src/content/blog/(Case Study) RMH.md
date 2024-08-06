@@ -11,7 +11,7 @@ tags:
   - UX_Design
   - UX
 description: Improved a clinic's new website experience.
-cover: ./public/assets/home.png
+cover: /assets/home.png
 coverAlt: Hero section of a website with text next to a woman's portrait.
 ogImage: ./public/astropaper-og.jpg
 ---
