@@ -13,7 +13,7 @@ tags:
   - UX
   - Front_End_Development
 description: Made a website from scratch for a university lab.
-cover: ../src/assets/images/lab-redesign/hero.png
+cover: ./public/assets/hero.png
 coverAlt: Hero section of a website with a logo at the center.
 ogImage: ./public/astropaper-og.jpg
 ---

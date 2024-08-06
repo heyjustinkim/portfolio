@@ -11,7 +11,7 @@ tags:
   - User_Research
   - UX
 description: Audited the usability of a risk adjustment platform's products.
-cover: ../src/assets/images/platform-audit/episource_home.png
+cover: ./public/assets/episource_home.png
 coverAlt: Hero section of a website.
 ogImage: ./public/astropaper-og.jpg
 ---
