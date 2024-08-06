@@ -3,7 +3,7 @@ author: Justin Kim
 pubDatetime: 2023-11-15
 title: "Post-Mortem: Luna Gardens (Demo)"
 postSlug: post-mortem-luna-gardens-demo
-featured: true
+featured: false
 draft: false
 tags:
   - project

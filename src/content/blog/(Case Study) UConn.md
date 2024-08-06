@@ -3,7 +3,7 @@ author: Justin Kim
 pubDatetime: 2024-05-22
 title: Creating a University Lab's Website
 postSlug: creating-university-labs-website
-featured: true
+featured: false
 draft: false
 tags:
   - project

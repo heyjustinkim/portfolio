@@ -5,7 +5,7 @@ import LinkButton from "./LinkButton.astro";
 
 export interface Props {
   // activeNav?: "projects" | "posts" | "about" | "resume" | "tags" | "search";
-  activeNav?: "projects" | "about";
+  activeNav?: "index" | "UX" | "games" | "writing" | "about" | "resume";
 }
 
 const { activeNav } = Astro.props;
@@ -56,9 +56,19 @@ const { activeNav } = Astro.props;
           </svg>
         </button>
         <ul id="menu-items" class="display-none sm:flex">
-          <li>
+          <!-- <li>
             <a href="/projects" class={activeNav === "projects" ? "active" : ""}>
               Projects
+            </a>
+          </li> -->
+          <li>
+            <a href="/" class={activeNav === "index" ? "active" : ""}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="/ux/" class={activeNav === "UX" ? "active" : ""}>
+              UX
             </a>
           </li>
           <!-- <li>
@@ -67,15 +77,25 @@ const { activeNav } = Astro.props;
             </a>
           </li> -->
           <li>
+            <a href="/games" class={activeNav === "games" ? "active" : ""}>
+              Games
+            </a>
+          </li>
+          <li>
+            <a href="/writing" class={activeNav === "writing" ? "active" : ""}>
+              Writing
+            </a>
+          </li>
+          <li>
             <a href="/about" class={activeNav === "about" ? "active" : ""}>
               About
             </a>
           </li>
-          <!-- <li>
+          <li>
             <a href="/resume" class={activeNav === "resume" ? "active" : ""}>
               Résumé
             </a>
-          </li> -->
+          </li>
           <!-- <li>
             <a href="/tags" class={activeNav === "tags" ? "active" : ""}>
               Tags
@@ -163,7 +183,7 @@ const { activeNav } = Astro.props;
   }
   nav ul li:nth-last-child(1),
   nav ul li:nth-last-child(2) {
-    @apply col-span-1;
+    /* @apply col-span-1; */
   }
   nav a.active {
     @apply underline decoration-wavy decoration-2 underline-offset-4;

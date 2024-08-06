@@ -3,7 +3,7 @@ author: Justin Kim
 pubDatetime: 2024-05-21
 title: Auditing a Risk Adjustment Platform's Usability
 postSlug: auditing-risk-adjustment-platform-usability
-featured: true
+featured: false
 draft: false
 tags:
   - project
