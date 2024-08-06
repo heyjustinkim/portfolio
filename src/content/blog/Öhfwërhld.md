@@ -11,7 +11,7 @@ tags:
   - showcase
   - game
 description: ⪽⨀⪾
-cover: ./public/assets/ohfwerhld-cover-image.png
+cover: /assets/ohfwerhld-cover-image.png
 coverAlt: Textured text saying "Öhfwërhld".
 ogImage: ./public/astropaper-og.jpg
 ---
