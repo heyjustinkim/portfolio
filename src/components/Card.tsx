@@ -18,7 +18,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   };
 
   return (
-    <li className="my-6 flex items-center rounded border-2 border-dotted border-skin-muted max-sm:flex-col">
+    <li className="my-6 flex items-center rounded border-2 border-solid border-skin-muted max-sm:flex-col">
       <div className="flex-1 p-6">
         <a
           href={href}

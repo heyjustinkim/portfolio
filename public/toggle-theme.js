@@ -1,4 +1,4 @@
-const primaryColorScheme = "cyberpunk"; // "light" | "dark"
+const primaryColorScheme = cyberpunk - dark; // "cyberpunk-light"; // "light" | "dark"
 
 // Get theme data from local storage
 const currentTheme = localStorage.getItem("theme");
