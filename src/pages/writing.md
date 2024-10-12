@@ -21,8 +21,8 @@ A collection of my published works.
 - [Top Gun in the Hands of Giant Robots: Nuclear Trauma in the Year 0083](https://www.thefinalarc.com/top-gun-gundam-0083/) - Featured Think Piece - Final Arc, August 2024
 - [Peeping Frame is the Cutest Way to Stalk Your Neighbors](https://www.thefinalarc.com/peeping-frame-is-the-cutest-way-to-peep-your-neighbors/) - Impression - Final Arc, August 2024
 - [Hobbyist Text Games Don't Give a Shit About Milking You and AAA Games Shouldn't Either](https://www.thefinalarc.com/hobbyist-text-games-dont-give-a-shit-about-milking-you-and-aaa-games-shouldnt-either/) - Featured Think Piece - Final Arc, August 2024
-- "EMOTIONALLY MAKING LOVE BENEATH the MASK EVERYDAY" - Section Essay - Exploits, March 2024
-- ["Made With Love: Anime Mashups and Their Creators"](https://unwinnable.com/2024/02/23/made-with-love-anime-mashups-and-their-creators-172/) - Featured Story - Unwinnable, February 2024
+- "EMOTIONALLY MAKING LOVE BENEATH the MASK EVERYDAY" - Section Essay - Exploits Issue #72, March 2024
+- ["Made With Love: Anime Mashups and Their Creators"](https://unwinnable.com/2024/02/23/made-with-love-anime-mashups-and-their-creators-172/) - Featured Story - Unwinnable Magazine Issue #172, February 2024
 
 ## 2015
 
