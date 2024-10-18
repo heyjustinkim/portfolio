@@ -7,7 +7,7 @@ A collection of my published works.
 
 ## 2024
 
-- [IFComp 2024 Impressions: A Warm Reception is The Hottest Scoop Yet](https://www.thefinalarc.com/ifcomp-2024-impressions-a-warm-reception-is-the-hottest-scoop-yet/)
+- [IFComp 2024 Impressions: A Warm Reception is The Hottest Scoop Yet](https://www.thefinalarc.com/ifcomp-2024-impressions-a-warm-reception-is-the-hottest-scoop-yet/) - Impression - Final Arc, October 2024
 - [IFComp 2024 Impressions: Play Quest for the Teacup of Minor Sentimental Value, a Choice-Based RPG Maker Game, to Brighten Your Day](https://www.thefinalarc.com/quest-for-the-teacup-of-minor-sentimental-value-a-choice-based-rpg-maker-game/) - Impression - Final Arc, October 2024
 - [Which of These 4 Soju Mascots Should You Date?](https://www.thefinalarc.com/which-of-these-soju-mascots-should-you-date/) - Listicle - Final Arc, October 2024
 - [Goodnight, Rave Racer](https://www.thefinalarc.com/goodnight-rave-racer/) - Featured Think Piece - Final Arc, September 2024
