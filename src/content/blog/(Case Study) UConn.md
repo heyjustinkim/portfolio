@@ -12,7 +12,8 @@ tags:
   - User_Research
   - UX
   - Front_End_Development
-description: Made a website from scratch for a university lab.
+  - GhostCMS
+description: Made a website from scratch for a university lab using Ghost CMS.
 cover: /assets/hero.png
 coverAlt: Hero section of a website with a logo at the center.
 ogImage: ./public/astropaper-og.jpg
