@@ -27,7 +27,9 @@ Case study decks provided upon request.
 In my spare time I:
 
 - Make [games](https://bruhstin.itch.io/). Currently focusing on [interactive fiction](https://en.wikipedia.org/wiki/Interactive_fiction).
-- Play games (of course). My favorite genres include Tactical RPG's, Side-scrolling Platformers, and Interactive Fiction.
-- Organize for San Gabriel Valley UX. Come [hang out](https://sgvux.design/) with us!
-- Read detective fiction. Some of my favorite novels are from the [Honkaku/Shin Honkaku schools](https://en.wikipedia.org/wiki/Japanese_detective_fiction)!
+- Play games (of course). My favorite games have labels such as Text Adventures, Point-and-Click Adventures, Tactical RPG's, Platformers, and Metroidvanias.
+- Practice Buddhism. I decided to follow the Buddha's teachings in early 2024.
+- Read books. Some of my favorite genres include detective fiction, religion, and horror.
 - Collect music! I love supporting indie artists on Bandcamp.
+- Practice divination. I'm an avid Tarot reader and enjoy learning other systems such as Lenormand, I-Ching, and dice divination. Disclaimer: As a Buddhist, I personally don't read fortunes.
+- Organize for San Gabriel Valley UX. Come [hang out](https://sgvux.design/) with us!
