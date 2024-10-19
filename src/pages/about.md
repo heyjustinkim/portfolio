@@ -32,4 +32,5 @@ In my spare time I:
 - Read books. Some of my favorite genres include detective fiction, religion, and horror.
 - Collect music! I love supporting indie artists on Bandcamp.
 - Practice divination. I'm an avid Tarot reader and enjoy learning other systems such as Lenormand, I-Ching, and dice divination. Disclaimer: As a Buddhist, I personally don't read fortunes.
+- Help apprentices as a [DIA Mentor](https://www.diadesign.io/2022-new-year-new-mentors/). We're always looking for more mentors to help us out!
 - Organize for San Gabriel Valley UX. Come [hang out](https://sgvux.design/) with us!
