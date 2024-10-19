@@ -9,7 +9,7 @@ A collection of my published works.
 
 ### Featured Articles
 
-- [Which of These 4 Soju Mascots Should You Date?](https://www.thefinalarc.com/which-of-these-soju-mascots-should-you-date/) - Listicle - Final Arc, October 2024
+- [Which of These 4 Soju Mascots Should You Date?](https://www.thefinalarc.com/which-of-these-soju-mascots-should-you-date/) - Featured Listicle - Final Arc, October 2024
 - [Goodnight, Rave Racer](https://www.thefinalarc.com/goodnight-rave-racer/) - Featured Think Piece - Final Arc, September 2024
 - [Devil's Hideout is the Silent Hill Point and Click Sequel I Didn't Know I Needed](https://www.thefinalarc.com/devils-hideout-is-the-best-silent-hill-point-and-click-sequel/) - Featured Impression - Final Arc, September 2024
 - [Top Gun in the Hands of Giant Robots: Nuclear Trauma in the Year 0083](https://www.thefinalarc.com/top-gun-gundam-0083/) - Featured Think Piece - Final Arc, August 2024
