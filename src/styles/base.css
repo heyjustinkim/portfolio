@@ -159,3 +159,7 @@
 /* ol > li > ::marker {
   color: var(--color-text-base) !important;
 } */
+
+img {
+  border-radius: 0.375rem;
+}

@@ -18,7 +18,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
   };
 
   return (
-    <li className="my-6 flex items-center rounded border-2 border-solid border-skin-muted max-sm:flex-col">
+    <li className="my-6 flex items-start rounded border-2 border-solid border-skin-muted max-sm:flex-col sm:items-center">
       <div className="flex-1 p-6">
         <a
           href={href}
@@ -33,8 +33,8 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
         <Datetime datetime={pubDatetime} className="my-3" />
         <p>{description}</p>
       </div>
-      <div className="flex-1">
-        <img src={cover} alt={coverAlt} />
+      <div className="flex-1 p-3">
+        <img src={cover} alt={coverAlt} className="rounded-md" />
       </div>
     </li>
   );

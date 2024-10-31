@@ -3,7 +3,7 @@ author: Justin Kim
 pubDatetime: 2024-05-23
 title: Updating a Consulting Firm's Website
 postSlug: updating-consulting-firms-website
-featured: false
+featured: true
 draft: false
 tags:
   - project

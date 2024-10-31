@@ -48,7 +48,7 @@ Making these blueprints of the final design let us focus on creating a hierarchy
 
 ### 3. Reverie's website lacked visual appeal
 
-<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="680" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2Fn1CriiJGvakzk2K4nxE6CK%2FReverie-Designs-Sample%3Fnode-id%3D0-1%26t%3DVF7wGqZrmdwHIpM1-1" allowfullscreen></iframe></p>
+<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="680" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2Fn1CriiJGvakzk2K4nxE6CK%2FReverie-Designs-Sample%3Fnode-id%3D0-1%26t%3DVF7wGqZrmdwHIpM1-1" allowfullscreen className="rounded-md"></iframe></p>
 
 <p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">Desktop, tablet, and mobile high-fidelity mockups of various pages next to their low-fidelity wireframes. To meet the client's timeline we made responsive mockups after getting feedback and approval on the wireframes.</p>
 

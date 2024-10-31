@@ -33,7 +33,7 @@ Final Arc is an online publication dedicated to sharing the latest and greatest 
 
 ### Okay, so why is Final Arc important?
 
-<div style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6_9Edh2J3cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6_9Edh2J3cc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="rounded-md"></iframe></p>
 <p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">A video explaining how indie games rose to prominence. Video by Dosuka via <a href="https://www.youtube.com/watch?v=6_9Edh2J3cc">YouTube</a>.</p>
 
 Why is this important, you may ask? Indie media is finally getting the attention it deserves. We're no longer in a world where a multi-million dollar media conglomerate is the only gateway to global success.
@@ -42,7 +42,7 @@ Thanks to factors such as free and open-source software and a consumer need for 
 
 ### Nice mission. But how's Final Arc involved?
 
-<div style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/blzyYpPuehI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/blzyYpPuehI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="rounded-md"></iframe></p>
 
 <p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">A video by an indie developer explaining how hard it is for indie games to succeed with marketing. Video by Johnny Ostad via <a href="https://www.youtube.com/watch?v=blzyYpPuehI">YouTube</a>.</p>
 
@@ -58,7 +58,7 @@ Hello, there. Tis I, Justin. I'm a UX Generalist who coded the website. I also [
 
 ## Problems we had to figure out
 
-<div style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MHVEVcJlUAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p style="display: flex; justify-content: center;"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MHVEVcJlUAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="rounded-md"></iframe></p>
 <p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">Intro explaining what Webflow is. Video by Webflow via <a href="https://www.youtube.com/watch?v=MHVEVcJlUAk">YouTube</a>.</p>
 
 We had a couple of glaring challenges to solve. First and foremost, we had no website. Our original approach was to build the entire site using Webflow, a no-code website builder, but we ran into two hiccups.
@@ -85,7 +85,7 @@ The lead designer and publication owner[^3] gathered us in a meeting one day. Th
 
 ### What is Ghost CMS?
 
-<div style="display: flex; justify-content: center;"><iframe width="560" height="315" src="/assets/dashboard.mp4" title="Ghost CMS Dashboard Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+<p style="display: flex; justify-content: center;"><iframe width="560" height="315" src="/assets/dashboard.mp4" title="Ghost CMS Dashboard Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="rounded-md"></iframe></p>
 <p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">Video demonstrating Ghost CMS's dashboard. Video by Ghost via <a href="https://ghost.org/">ghost.org</a>.</p>
 
 Ghost CMS is a one-stop shop for building a blog website. Its simple and smooth word editor made publishing content way easier than anything Webflow could offer. Getting a basic, aesthetic, and functioning website up and running was also a cinch since Ghost uses templates. Not to mention, commenting and user profiles were already setup for us.
@@ -110,7 +110,8 @@ Spoiler-alert: This was also one of my most terrifying moments. While I was trea
 
 The template we used is GBJ Solution's [Porto theme](https://ghost.org/themes/porto/), which had a slick and powerful aesthetic off the bat that suited Final Arc's initial needs just fine. Specific styling changes to reflect the brand during its alpha launch were provided by the design team[^4].
 
-<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="680" src="https://embed.figma.com/design/dNZU8jgsoZVVei346Etyev/Final-Arc-Styling-Sample?node-id=0-1&embed-host=share" allowfullscreen></iframe></p>
+<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="680" src="https://embed.figma.com/design/dNZU8jgsoZVVei346Etyev/Final-Arc-Styling-Sample?node-id=0-1&embed-host=share" allowfullscreen className="rounded-md"></iframe></p>
+<p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">The styling guide for the alpha launch website prepared by our design team.</p>
 
 While many issues were found and debugged, I'll just share a few of the biggest hurdles I came across with you.
 
@@ -152,7 +153,10 @@ Developers need to have fun, too! To add a little charm to the website that alig
 
 At last, we launched the site. Over a period of 3 months, we tracked the visitors who came to the Final Arc site and observed what they were doing.
 
-<object class="pdf" data= "/assets/Final_Arc_Reporting.pdf" width="100%"             height="500px"></object>
+<!--- There's code right below this idk why it's not loading. --->
+<p><object class="pdf" data= "/assets/Final_Arc_Reporting.pdf" width="100%"             height="500px" className="rounded-md"></object></p>
+
+<p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">The full summary report for Final Arc's traffic and organic search performance is provided here for your convenience.</p>
 
 ### Traffic summary
 

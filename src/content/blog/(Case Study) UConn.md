@@ -51,7 +51,7 @@ In addition to designing the site from scratch we also had to ensure that users 
 
 We started by mapping the site to plan where relevant information would go. We then visualized the website's organization using low-fidelity (lo-fi) wireframes to determine how its information would be laid out and presented to users. These also gave us initial feedback from the client and stakeholders to make sure the site's design included their input.
 
-<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FOIKuCVI283RK0Ce0HqEeE7%2FPEER-Designs-Sample%3Fnode-id%3D0-1%26t%3D9NjOiE8glAVwMJ5T-1" allowfullscreen></iframe></p>
+<p><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fdesign%2FOIKuCVI283RK0Ce0HqEeE7%2FPEER-Designs-Sample%3Fnode-id%3D0-1%26t%3D9NjOiE8glAVwMJ5T-1" allowfullscreen className="rounded-md"></iframe></p>
 
 <p class="text-[--color-card-muted] text-center pt-0 mt-0 text-xs">A sample of the lo-fi wireframes next to their hi-fi mockups. The Ghost template we chose came with built-in responsiveness so we focused on desktop designs only to save time.</p>
 
