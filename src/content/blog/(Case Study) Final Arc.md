@@ -11,6 +11,7 @@ tags:
   - GhostCMS
   - Front_End_Development
   - UX_Design
+  - UX
 description: Coded an indie publication's website using Ghost CMS.
 cover: /assets/finalarc_cover.png
 coverAlt: Final Arc website displayed on multiple devices.
