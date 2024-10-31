@@ -1,6 +1,6 @@
 ---
 author: Justin Kim
-pubDatetime: 2024-10-17
+pubDatetime: 2024-10-30
 title: Developing an Indie Publication's Website
 postSlug: developing-an-indie-publications-website
 featured: true
