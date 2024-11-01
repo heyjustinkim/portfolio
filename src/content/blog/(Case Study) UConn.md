@@ -21,6 +21,8 @@ ogImage: ./public/astropaper-og.jpg
 
 ![Hero section of a website with a logo at the center.](@assets/images/lab-redesign/hero.png)
 
+## Table of contents
+
 ## Summary
 
 As a UX Designer I helped design and implemented the Partnership for Evaluation & Educational Research (PEER) lab's first website. Their business goal was to showcase the lab's work and to persuade potential clients to hire them.

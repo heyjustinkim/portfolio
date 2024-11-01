@@ -18,6 +18,8 @@ ogImage: ./public/astropaper-og.jpg
 
 ![Hero section of a website with text next to an image.](@assets/images/firm-redesign/feature.png)
 
+## Table of contents
+
 ## Summary
 
 As a UX Generalist, I helped the Brinkerhoff Evaluation Institute (BEI) give their website a modern and professional update as a researcher, designer, and developer.

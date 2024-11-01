@@ -18,6 +18,8 @@ ogImage: ./public/astropaper-og.jpg
 
 ![Hero section of a website.](@assets/images/platform-audit/episource_home.png)
 
+## Table of contents
+
 ## Summary
 
 The team at DIA Design Guild brought me on for my UX Design background to help audit Episource's risk adjustment platform and help the company's stakeholders make sense of the then-current state of their product ecosystem. Our goal was to make recommendations for the future information architecture and design of Episource's products based on our findings.

@@ -30,9 +30,12 @@ const { name, size = "sm" } = Astro.props;
 
 <style>
   a {
-    @apply relative underline decoration-dashed hover:-top-0.5 hover:text-skin-accent focus-visible:p-1;
+    /* @apply relative underline decoration-dashed hover:-top-0.5 hover:text-skin-accent focus-visible:p-1; */
+    /* @apply relative hover:-top-0.5 hover:text-skin-accent focus-visible:p-1; */
+    /* @apply relative hover:-top-0.5 hover:text-skin-inverted hover:decoration-transparent hover:bg-gradient-to-r hover:from-[#E93CAC] hover:to-[#1E1EE8] hover:rounded-md focus-visible:p-1; */
+    @apply relative hover:text-skin-inverted hover:decoration-transparent hover:bg-gradient-to-r hover:from-[rgba(233,60,172,75%)] hover:to-[rgba(30,30,232,75%)] hover:rounded-md active:bg-gradient-to-r active:from-[#E93CAC] active:to-[#1E1EE8] active:rounded-md active:text-skin-inverted active:decoration-transparent focus-visible:p-1;
   }
   a svg {
-    @apply -mr-1.5 h-6 w-6 scale-95 text-skin-base opacity-80 group-hover:fill-skin-accent;
+    @apply -mr-1.5 h-6 w-6 scale-95 text-skin-base opacity-100 group-hover:fill-skin-inverted group-active:fill-skin-inverted;
   }
 </style>

@@ -18,6 +18,8 @@ ogImage: ./public/astropaper-og.jpg
 
 ![Hero section of a website with text next to a woman's portrait.](@assets/images/clinic-redesign/home.png)
 
+## Table of contents
+
 ## Summary
 
 As a UX Designer I helped redesign Reverie Mental Health's website experience to attract prospective patients. I worked in a team of three at DIA Design Guild with another UX Designer and a project manager for three months. Our team delivered a competitive analysis, website design mockups, and a design system to the client.

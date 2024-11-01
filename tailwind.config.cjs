@@ -54,9 +54,18 @@ module.exports = {
       skin: {
         base: withOpacity("--color-text-base"),
         accent: withOpacity("--color-accent"),
+        inverted: withOpacity("--color-fill"),
       },
       transparent: "transparent",
     },
+    // gradient: {
+    //   pink: {
+    //     color: withOpacity("--color-card-muted"),
+    //   },
+    //   blue: {
+    //     color: withOpacity("--color-accent")
+    //   },
+    // },
     fontFamily: {
       // mono: ["IBM Plex Mono", "monospace"],
       sans: ["Lato", "sans-serif"],

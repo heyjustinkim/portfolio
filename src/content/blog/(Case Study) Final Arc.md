@@ -20,6 +20,8 @@ ogImage: ./public/astropaper-og.jpg
 
 ![Final Arc website displayed on multiple devices.](@assets/images/indie-website/finalarc_cover.png)
 
+## Table of contents
+
 ## Summary
 
 - Coded and helped design the website for Final Arc, an online publication focused on indie games and more.

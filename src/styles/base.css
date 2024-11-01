@@ -20,22 +20,26 @@
     --color-card-muted: 138, 51, 2;
     --color-border: 171, 75, 8;
   } */
-  html[data-theme="cyberpunk-dark"] {
+  /* html[data-theme="cyberpunk-dark"] {
     --color-fill: 3, 16, 25;
     --color-text-base: 234, 237, 243;
     --color-accent: 233, 60, 172;
     --color-card: 30, 34, 170;
     --color-card-muted: 0, 188, 225;
     --color-border: 89, 203, 232;
-  } 
-  /* html[data-theme="cyberpunk-light"] {
-    --color-fill: 234, 237, 243;
+  }  */
+  html[data-theme="cyberpunk-light"] {
+    /* --color-fill: 234, 237, 243; */
+    --color-fill: 240, 240, 240;
     --color-text-base: 5, 28, 44;
-    --color-accent: 233, 60, 172;
+    /* --color-accent: 233, 60, 172; */
+    /* --color-accent: 30, 34, 170; */
+    --color-accent: 30, 30, 232;
     --color-card: 89, 203, 232;
-    --color-card-muted: 0, 188, 225;
-    --color-border: 32, 21, 71;
-  } */
+    --color-card-muted: 233, 60, 172;
+    /* --color-border: 32, 21, 71; */
+    --color-border: 5, 28, 44;
+  }
   #sun-svg,
   html[data-theme="dark"] #moon-svg {
     display: none;
@@ -61,7 +65,8 @@
     focus-visible:no-underline focus-visible:outline-dashed;
   }
   svg {
-    @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent;
+    /* @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-accent; */
+    @apply inline-block h-6 w-6 fill-skin-base group-hover:fill-skin-inverted group-active:fill-skin-inverted;
   }
   svg.icon-tabler {
     @apply inline-block h-6 w-6 scale-125 fill-transparent 
@@ -72,8 +77,24 @@
     @apply prose-headings:!mb-3 prose-headings:!text-skin-base 
     prose-h3:italic prose-p:!text-skin-base 
     prose-h5:italic prose-h5:tracking-wide
-    prose-a:!text-skin-base prose-a:!decoration-dashed prose-a:underline-offset-8
-    hover:prose-a:text-skin-accent prose-blockquote:!border-l-skin-accent
+    prose-a:text-skin-base 
+    prose-a:decoration-dashed 
+    /* prose-a:!decoration-solid  */
+    prose-a:underline-offset-8
+    /* hover:prose-a:text-skin-accent  */
+    hover:prose-a:decoration-transparent
+    hover:prose-a:text-skin-inverted
+    hover:prose-a:bg-gradient-to-r
+    hover:prose-a:from-[rgba(233,60,172,75%)] 
+    hover:prose-a:to-[rgba(30,30,232,75%)]
+    hover:prose-a:rounded-md
+    active:prose-a:bg-gradient-to-r 
+    active:prose-a:from-[#E93CAC] 
+    active:prose-a:to-[#1E1EE8] 
+    active:prose-a:rounded-md 
+    active:prose-a:text-skin-inverted 
+    active:prose-a:decoration-transparent
+    prose-blockquote:!border-l-skin-accent
     prose-blockquote:border-opacity-50 prose-blockquote:opacity-80
     prose-figcaption:!text-skin-base prose-figcaption:opacity-70
     prose-strong:!text-skin-base
@@ -92,7 +113,7 @@
     prose-img:border-skin-line prose-hr:!border-skin-line;
   }
   .prose a {
-    @apply break-words hover:!text-skin-accent;
+    /* @apply break-words hover:!text-skin-accent; */
   }
   .prose thead th:first-child,
   tbody td:first-child,

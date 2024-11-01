@@ -176,7 +176,8 @@ const { activeNav } = Astro.props;
     @apply col-span-2 flex items-center justify-center;
   }
   nav ul li a {
-    @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1;
+    /* @apply w-full px-4 py-3 text-center font-medium hover:text-skin-accent sm:my-0 sm:px-2 sm:py-1; */
+    @apply w-full px-4 py-3 text-center font-medium sm:my-0 sm:px-2 sm:py-1 hover:text-skin-inverted hover:decoration-transparent hover:bg-gradient-to-r hover:from-[rgba(233,60,172,75%)] hover:to-[rgba(30,30,232,75%)] hover:rounded-md active:bg-gradient-to-r active:from-[#E93CAC] active:to-[#1E1EE8] active:rounded-md active:text-skin-inverted;
   }
   nav ul li:nth-last-child(2) a {
     @apply w-auto;
