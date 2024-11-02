@@ -29,6 +29,7 @@ const { centered = false } = Astro.props;
     @apply flex-wrap justify-center gap-1;
   }
   .link-button {
-    @apply p-2 hover:rotate-6 sm:p-1;
+    /* @apply p-2 hover:rotate-6 sm:p-1; */
+    @apply p-2 sm:p-1 hover:rotate-6 hover:text-skin-inverted hover:decoration-transparent hover:bg-gradient-to-r hover:from-[rgba(233,60,172,75%)] hover:to-[rgba(30,30,232,75%)] hover:rounded-md active:bg-gradient-to-r active:from-[#E93CAC] active:to-[#1E1EE8] active:rounded-md active:text-skin-inverted;
   }
 </style>

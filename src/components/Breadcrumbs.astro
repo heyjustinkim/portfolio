@@ -49,7 +49,8 @@ breadcrumbList[0] === "posts" &&
     @apply inline;
   }
   .breadcrumb ul li a {
-    @apply capitalize opacity-70;
+    /* @apply capitalize opacity-70; */
+    @apply capitalize opacity-70 hover:underline hover:underline-offset-4 hover:decoration-dashed hover:!opacity-70 active:font-bold active:decoration-solid active:opacity-70;
   }
   .breadcrumb ul li span {
     @apply opacity-70;

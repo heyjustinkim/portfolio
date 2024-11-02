@@ -23,6 +23,11 @@ const { href, className, ariaLabel, title, disabled = false } = Astro.props;
 
 <style>
   a {
-    @apply hover:text-skin-accent;
+    /* @apply hover:text-skin-accent; */
+    @apply hover:underline hover:underline-offset-4 hover:decoration-dashed active:font-bold active:decoration-solid;
+  }
+
+  a svg {
+    @apply hover:underline hover:underline-offset-4 hover:decoration-dashed active:font-bold active:decoration-solid;
   }
 </style>

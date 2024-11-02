@@ -36,7 +36,7 @@ const socialIcons: SocialIcons = {
   </svg>`,
   LinkedIn: `<svg
     xmlns="http://www.w3.org/2000/svg"
-    class="icon-tabler"
+    class="icon-tabler linkedin-icon"
     stroke-linecap="round"
     stroke-linejoin="round"
   >
