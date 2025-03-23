@@ -3,7 +3,7 @@ layout: ../layouts/WritingLayout.astro
 title: "Writing"
 ---
 
-A collection of my published works.
+A collection of my published works as a writer.
 
 ## 2024
 
