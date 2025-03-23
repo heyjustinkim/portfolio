@@ -12,7 +12,7 @@ A collection of my published works.
 - [Goodnight, Rave Racer](https://www.thefinalarc.com/goodnight-rave-racer/) - Featured Think Piece - Final Arc, September 2024
 - [Devil's Hideout is the Silent Hill Point and Click Sequel I Didn't Know I Needed](https://www.thefinalarc.com/devils-hideout-is-the-best-silent-hill-point-and-click-sequel/) - Featured Impression - Final Arc, September 2024
 - [Top Gun in the Hands of Giant Robots: Nuclear Trauma in the Year 0083](https://www.thefinalarc.com/top-gun-gundam-0083/) - Featured Think Piece - Final Arc, August 2024
-- [Hobbyist Text Games Don't Give a Shit About Milking You and AAA Games Shouldn't Either](https://www.thefinalarc.com/hobbyist-text-games-dont-give-a-shit-about-milking-you-and-aaa-games-shouldnt-either/) - Featured Think Piece - Final Arc, August 2024
+- [Hobbyist Text Games Don't Care About Milking You and AAA Games Shouldn't Either](https://www.thefinalarc.com/hobbyist-text-games-dont-care-about-milking-you-and-aaa-games-shouldnt-either/) - Featured Think Piece - Final Arc, August 2024
 - ["Made With Love: Anime Mashups and Their Creators"](https://unwinnable.com/2024/02/23/made-with-love-anime-mashups-and-their-creators-172/) - Featured Story - Unwinnable Magazine Issue #172, February 2024
 
 ### Impressions

@@ -31,6 +31,7 @@
   html[data-theme="cyberpunk-light"] {
     /* --color-fill: 234, 237, 243; */
     --color-fill: 240, 240, 240;
+    /* --color-fill: 255, 255, 255; */
     --color-text-base: 5, 28, 44;
     /* --color-accent: 233, 60, 172; */
     /* --color-accent: 30, 34, 170; */

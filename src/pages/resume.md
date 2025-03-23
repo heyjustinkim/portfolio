@@ -9,14 +9,54 @@ PDF version provided upon request. Alternatively, you can _Right click > Save as
 
 ## Summary
 
-- I'm a UX and product designer with experience in AI usability, UX auditing,
-  and project management.
-- I specialize in game UX and design, particularly with AI and UX components,
-  to create immersive digital storytelling in the games industry.
-- When I'm not designing you can find me playing video games or reading a
-  detective story.
+- Hello, Justin here! I'm a UX Generalist who specializes in UX Design, UI Design, Front-End Development, and Content Writing. Among other things.
+- My areas of interest include web development using Ghost CMS, making games, digital publishing, interactive fiction, and cultural criticism pieces on internet culture.
+- When I’m not working you can find me playing video games or reading books!
 
 ## Experiences
+
+### The TJX Companies, Inc.
+
+- Nov. 2024 – Present
+
+#### Merchandise Associate
+
+- Engaging guests with a cheerful and helpful attitude to positively impact the customer experience and encourage repeat visits, increasing sales.
+- Handling large volumes of financial transactions with attention to detail and integrity.
+- Promoting credit and rewards program by informing customers of benefits to meet sales goals.
+- Assisting with store closings by recovering merchandise.
+
+### Final Arc
+
+- Overall: May 2024 – Present
+
+#### Web Content Writer
+
+- Aug. 2024 - Present
+- Writing engaging articles for publication by utilizing creative writing skills and SEO best practices.
+- Marketing content through various social media sites to increase impressions and click-through-rates.
+
+#### UX Generalist (UX Designer, UI Designer, Front-End Developer)
+
+- May – Sept. 2024
+- Designed responsive wireframes to help visualize the first iteration of the website.
+- Developed alpha site in Ghost CMS using Handlebars JS, HTML5, CSS3.
+
+### Freelance Writing
+
+- July 2023 – Present
+
+#### Content Writer
+
+- Ideating ideas, concepts, and topics to write engaging content.
+- Pitching articles to publications and editors by emphasizing potential for capturing user attention.
+- Outlining content before drafting to ensure coherence and logical consistency of piece.
+- Utilizing SEO best practices to achieve search ranking performance for articles.
+- Rapidly researching topics, building rapport with communities, and interviewing subject matter experts.
+- Covering community events and other news to spread awareness of important cultural developments.
+- Generating marketing assets as well as including appropriate captions and alt text.
+- Adhering to editorial style guides for voice, tone, branding, etc.
+- Creating editorial style guides when none are available because I'm a team-player like that.
 
 ### DIA Design Guild LLC
 
