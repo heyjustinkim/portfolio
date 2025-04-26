@@ -17,6 +17,79 @@ PDF version provided upon request. Alternatively, you can _Right click > Save as
 
 Reliable and self-starting Paralegal Student with technology background seeking to contribute proven customer service and organizational skills by obtaining Legal Assistant or Internship roles.
 
+## Skills
+
+### General
+
+- Speak, read, and write fluent English, elementary Korean, and elementary Chinese (Mandarin).
+- Exposure to Introduction to Paralegal, Legal Analysis and Writing, Law Office Procedures, Tort Law.
+- Commended for strong communication skills and attention to detail.
+- Excellent organizational skills developed through navigating complex client projects.
+- Background in UX Design, User Research, Web Development, Content Writing.
+- Familiar with social media sites: LinkedIn, X/Twitter, Instagram, Bluesky, Facebook.
+- Type 83 WPM.
+
+### Software
+
+- Practice Management: Clio Manage
+- Documents: Microsoft Word, Microsoft Excel, Microsoft PowerPoint, Adobe Acrobat, Google Docs, Google Sheets, Google Slides
+- Communication: Google Meet, Zoom, Slack, Discord
+- Calendaring: Google Calendar
+- Cloud Storage: Google Drive
+- Design: Adobe Illustrator, Adobe InDesign, Figma, Miro
+- Knowledge Management: Notion, Coda, Obsidian, Airtable
+- Time Tracking: Toggl Track, ClickUp
+- Audiovisual: Adobe Photoshop, Adobe Premiere Pro, DaVinci Resolve, OBS Studio, Audacity
+- Content Management System: Ghost CMS, Webflow
+- Analytics: Google Analytics, Crazy Egg
+- Version Control: Git, GitHub
+
+### Coding Languages
+
+- General Purpose: Java, C, C++
+- Web Development: HTML5, CSS3, JavaScript, Python
+- Interactive Narrative: Twine, ink, ChoiceScript, Inform 6/7
+
+<!-- ### Disciplines
+
+- UX Design
+- UI Design
+- UX Research
+
+### Design Methods
+
+- Wireframe
+- Interactive prototype
+- Low/high fidelity mock-ups
+
+### Design Tools
+
+- Figma
+- Adobe Creative Suite
+- Microsoft Office
+
+### Usability Testing
+
+- Usability studies
+- User surveys
+- User interviews -->
+
+## Education
+
+### Mt. San Antontio College
+
+- Associate of Science Degree Candidate, Paralegal/Legal Assistant
+- Location: Walnut, CA
+- Anticipated Graduation: June 2026
+- American Bar Association accredited program.
+
+### University of California at San Diego
+
+- Bachelor of Science Degree, Cognitive Science: Human-Computer Interaction
+- Location: La Jolla, CA
+- Graduated June 2019
+- Provost Honors (Spring 2016).
+
 ## Experiences
 
 ### OB Square
@@ -212,47 +285,22 @@ Reliable and self-starting Paralegal Student with technology background seeking 
 
 - Grew AI product from an MVP-state to a full-fledged SaaS product.
 
-## Skills
-
-### Disciplines
-
-- UX Design
-- UI Design
-- UX Research
-
-### Design Methods
-
-- Wireframe
-- Interactive prototype
-- Low/high fidelity mock-ups
-
-### Design Tools
-
-- Figma
-- Adobe Creative Suite
-- Microsoft Office
-
-### Usability Testing
-
-- Usability studies
-- User surveys
-- User interviews
-
-## Education
-
-### University of California at San Diego
-
-- Graduated 2019
-- B.S. in Cognitive Science — HCI
-
 ## Personal
 
 ### DIA Design Guild
 
 - Jan. 2022 – Present
 - Mentor, Community Organizer
+- Joined DIA Design Guild as a mentor for the 2022 cohort.
+- Mentoring UX apprentices by teaching them how to properly write cover letters and résumés, advising them on projects and case studies, answering questions regarding topics such as use-cases for UX methods.
+
+### IAC - Information Architecture Conference
+
+- Apr. 2022 – Apr. 2022
+- Coordinated with conference organizers and other backstage managers to ensure a smooth event and address any issues that arose. Leveraged Gather Town expertise to assist with any attendees confused with navigating the platform and using its features. Hosted the go-kart tournament using MC skills to provide a meaningful and entertaining experience for attendees who wished to win prizes.
 
 ### San Gabriel Valley User Experience
 
 - Sep. 2019 – Present
 - Community Organizer
+- Organizing and facilitating online community engagement, hosting and moderating online social events to build and reinforce the SGVUX community, finding and importing emotes into the Discord server for reactionary purposes.
