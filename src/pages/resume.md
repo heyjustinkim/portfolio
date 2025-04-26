@@ -7,34 +7,49 @@ PDF version provided upon request. Alternatively, you can _Right click > Save as
 
 ## Table of contents
 
-## Summary
+<!-- ## Summary
 
 - Hello, Justin here! I'm a UX Generalist who specializes in UX Design, UI Design, Front-End Development, and Content Writing. Among other things.
 - My areas of interest include web development using Ghost CMS, making games, digital publishing, interactive fiction, and cultural criticism pieces on internet culture.
-- When I’m not working you can find me playing video games or reading books!
+- When I’m not working you can find me playing video games or reading books! -->
+
+## Objective
+
+Reliable and self-starting Paralegal Student with technology background seeking to contribute proven customer service and organizational skills by obtaining Legal Assistant or Internship roles.
 
 ## Experiences
 
+### OB Square
+
+- Apr. 2025 – Present
+
+#### Food Server
+
+- Serve food to customers by tracking multiple requests and orders to ensure satisfactory dining experience.
+- Track multiple requests and orders to meet customer expectations.
+- Handle money payments and count money at cash register to keep accurate financial records.
+- Sanitize restaurant to maintain cleanliness.
+
 ### The TJX Companies, Inc.
 
-- Nov. 2024 – Present
+- Nov. 2024 – Apr. 2025
 
 #### Merchandise Associate
 
-- Engaging guests with a cheerful and helpful attitude to positively impact the customer experience and encourage repeat visits, increasing sales.
-- Handling large volumes of financial transactions with attention to detail and integrity.
-- Promoting credit and rewards program by informing customers of benefits to meet sales goals.
-- Assisting with store closings by recovering merchandise.
+- Engaged guests with a cheerful and helpful attitude to positively impact the customer experience and encourage repeat visits, increasing sales.
+- Handled large volumes of financial transactions with attention to detail and integrity.
+- Promoted credit and rewards program by informing customers of benefits to meet sales goals.
+- Assisted with store closings by recovering merchandise.
 
 ### Final Arc
 
-- Overall: May 2024 – Present
+- Overall: May 2024 – Nov. 2024
 
 #### Web Content Writer
 
-- Aug. 2024 - Present
-- Writing engaging articles for publication by utilizing creative writing skills and SEO best practices.
-- Marketing content through various social media sites to increase impressions and click-through-rates.
+- Aug. 2024 – Nov. 2024
+- Wrote engaging articles for publication by utilizing creative writing skills and SEO best practices.
+- Marketed content through various social media sites to increase impressions and click-through-rates.
 
 #### UX Generalist (UX Designer, UI Designer, Front-End Developer)
 
@@ -44,71 +59,71 @@ PDF version provided upon request. Alternatively, you can _Right click > Save as
 
 ### Freelance Writing
 
-- July 2023 – Present
+- July 2023 – Feb. 2024
 
 #### Content Writer
 
-- Ideating ideas, concepts, and topics to write engaging content.
-- Pitching articles to publications and editors by emphasizing potential for capturing user attention.
-- Outlining content before drafting to ensure coherence and logical consistency of piece.
-- Utilizing SEO best practices to achieve search ranking performance for articles.
-- Rapidly researching topics, building rapport with communities, and interviewing subject matter experts.
-- Covering community events and other news to spread awareness of important cultural developments.
-- Generating marketing assets as well as including appropriate captions and alt text.
-- Adhering to editorial style guides for voice, tone, branding, etc.
-- Creating editorial style guides when none are available because I'm a team-player like that.
+- Ideated ideas, concepts, and topics to write engaging content.
+- Pitchedarticles to publications and editors by emphasizing potential for capturing user attention.
+- Outlined content before drafting to ensure coherence and logical consistency of piece.
+- Utilized SEO best practices to achieve search ranking performance for articles.
+- Rapidly researched topics, building rapport with communities, and interviewing subject matter experts.
+- Covered community events and other news to spread awareness of important cultural developments.
+- Generated marketing assets as well as including appropriate captions and alt text.
+- Adhered to editorial style guides for voice, tone, branding, etc.
+- Created editorial style guides when none are available because I'm a team-player like that.
 
 ### DIA Design Guild LLC
 
-- Overall: July 2021 – Present
+- Overall: July 2021 – Feb. 2025
 
 #### User Experience Designer
 
-- July 2021 – Present
-- Leading and working with senior experts and junior apprentices on
+- July 2021 – Feb. 2025
+- Lead and worked with senior experts and junior apprentices on
   researching, designing, and developing solutions for clients' business needs.
 
 ##### Research
 
-- Investigating problems and related factors by conducting UX
+- Investigated problems and related factors by conducting UX
   audits and assessments.
-- Creating product ecosystem and journey maps.
-- Interviewing and testing designs with target users and stakeholders.
-- Mapping content structure and relationships.
-- Recommending ideal tech stacks to determine core user needs and design requirements.
+- Created product ecosystem and journey maps.
+- Interviewed and testing designs with target users and stakeholders.
+- Mapped content structure and relationships.
+- Recommended ideal tech stacks to determine core user needs and design requirements.
 
 ##### Design
 
-- Iterating upon possible solutions that incorporate problems, needs,
+- Iterated upon possible solutions that incorporate problems, needs,
   and requirements found during research phase.
-- Drafting layouts based on content structures in low-fidelity wireframes.
-- Visualizing the intended user experience using high-fidelity mockups.
-- Rapidly prototyping the final deliverable.
+- Drafted layouts based on content structures in low-fidelity wireframes.
+- Visualized the intended user experience using high-fidelity mockups.
+- Rapidly prototyped the final deliverable.
 
 ##### Development
 
-- Implementing designs into fully interactive experiences by
+- Implemented designs into fully interactive experiences by
   coding the designs in HTML5 and CSS3 on clients' chosen platform.
-- Assembling designs in tools such as Webflow.
-- Delivering tangible solutions to clients that address related problems and needs.
+- Assembled designs in tools such as Webflow.
+- Delivered tangible solutions to clients that address related problems and needs.
 
 ##### Content
 
-- Contributing content for monthly newsletter updates.
-- Drafting, editing, and publishing blog posts and articles.
-- Engaging with subscribers and maintain DIA's online presence.
+- Contributed content for monthly newsletter updates.
+- Drafted, edited, and published blog posts and articles.
+- Engaged with subscribers and maintain DIA's online presence.
 
 #### Project Manager, Game Club
 
-- Oct. 2021 – Present
+- Oct. 2021 – Jan. 2025
 - Founder and head of the DIA Game Club, a place for discussing games.
   Formerly known as the DIA Game Studio.
-- Encouraging an accessible game making philosophy by running the DIA Game
+- Encouraged an accessible game making philosophy by running the DIA Game
   Jam format to help busy folks prototype small games together using a
   different tool each month.
-- Keeping subscribers updated on the club's activities by publishing blog posts summarizing game jam activities and sharing them in the monthly newsletter updates.
+- Kept subscribers updated on the club's activities by publishing blog posts summarizing game jam activities and sharing them in the monthly newsletter updates.
 
-### Figma Tutoring (Remote)
+<!-- ### Figma Tutoring (Remote)
 
 - Apr. – Aug. 2021
 
@@ -139,7 +154,7 @@ PDF version provided upon request. Alternatively, you can _Right click > Save as
 
 #### Result
 
-- Responsive online portfolio and foundation for learning further front-end development.
+- Responsive online portfolio and foundation for learning further front-end development. -->
 
 ### World IA Day Los Angeles Org
 
