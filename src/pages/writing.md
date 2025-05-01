@@ -17,6 +17,7 @@ A collection of my published works as a writer.
 
 ### Impressions
 
+- [IFComp 2024 Impressions: An Account of Your Visit to the Enchanted House & What You Found There is a Wholesome Adventure](https://www.thefinalarc.com/ifcomp-2024-impressions-an-account-of-your-visit-to-the-enchanted-house-what-you-found-there-is-a-wholesome-adventure/) - Impression - Final Arc, November 2024
 - [IFComp 2024 Impressions: Bad Beer is the Cozy Mini Mystery That Will Charm You](https://www.thefinalarc.com/ifcomp-2024-impressions-bad-beer-is-the-cozy-mini-mystery-that-will-charm-you/) - Impression - Final Arc, October 2024
 - [IFComp 2024 Impressions: A Warm Reception is The Hottest Scoop Yet](https://www.thefinalarc.com/ifcomp-2024-impressions-a-warm-reception-is-the-hottest-scoop-yet/) - Impression - Final Arc, October 2024
 - [IFComp 2024 Impressions: Play Quest for the Teacup of Minor Sentimental Value, a Choice-Based RPG Maker Game, to Brighten Your Day](https://www.thefinalarc.com/quest-for-the-teacup-of-minor-sentimental-value-a-choice-based-rpg-maker-game/) - Impression - Final Arc, October 2024
