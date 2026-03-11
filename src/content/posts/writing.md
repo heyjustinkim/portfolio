@@ -3,7 +3,7 @@ author: Justin Kim
 createdAt: 2026.03.10
 title: Writing Credits
 postSlug: writing-credits
-draft: false
+draft: true
 tags: [writing]
 summary: A collection of my published works as a writer.
 # coverAlt: Textured text saying "Öhfwërhld".
@@ -22,13 +22,14 @@ A collection of my published works as a writer.
 - [The Ongoing Housing Crisis and Eviction Law Updates in L.A. County](https://www.linkedin.com/posts/los-angeles-paralegal-assn_june-2025-lapa-reporter-activity-7336865339441369090-PbIZ/) - Student Perspective - LAPA Reporter, June 2025
 
 ### Game reviews
+
 - [Vlad Circus: Curse of Asmodeus Review ](https://outputlag.com/game-reviews/vlad-circus-curse-of-asmodeus-review/) - Review - August 2025
 - [Easy Delivery Co. Preview ](https://outputlag.com/previews/easy-delivery-co-preview/) - Preview - July 2025
 - [Retro Review: Parasite Eve ](https://outputlag.com/game-reviews/retro-review-parasite-eve/) - Retro Review - Output Lag, July 2025
 
 ## 2024
 
-- Note: Many of my Final Arc articles are no longer available online. Please contact me if you wish to see a particular piece. 
+- Note: Many of my Final Arc articles are no longer available online. Please contact me if you wish to see a particular piece.
 
 ### Featured articles
 
@@ -55,6 +56,7 @@ A collection of my published works as a writer.
 ### Showcases
 
 <!-- - [IFComp 2024 Has Begun!](https://www.thefinalarc.com/ifcomp-2024-has-begun/) - Showcase - Final Arc, September 2024 -->
+
 - IFComp 2024 Has Begun! - Showcase - Final Arc, September 2024
 
 ### Section essays
@@ -64,6 +66,7 @@ A collection of my published works as a writer.
 ### Listicles
 
 <!-- - [Which of These 4 Soju Mascots Should You Date?](https://www.thefinalarc.com/which-of-these-soju-mascots-should-you-date/) - Listicle - Final Arc, October 2024 -->
+
 - Which of These 4 Soju Mascots Should You Date? - Listicle - Final Arc, October 2024
 
 ## 2015

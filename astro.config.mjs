@@ -46,7 +46,7 @@ export default defineConfig({
     fonts: [
       {
         provider: fontProviders.fontsource(),
-        name: "Space Grotesk",
+        name: "Lato",
         cssVariable: "--font-display",
       },
     ],
