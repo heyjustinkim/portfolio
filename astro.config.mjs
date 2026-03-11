@@ -11,7 +11,7 @@ import sitemap from "@astrojs/sitemap";
 export default defineConfig({
   // IMPORTANT: Change this to your deployed site URL
   site: "https://www.heyjustinkim.com/",
-  base: "/portfolio",
+  // base: "/portfolio",
 
   vite: {
     plugins: [tailwindcss()],
