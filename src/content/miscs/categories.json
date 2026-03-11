@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Legal Writing",
+    "slug": "legal-writing",
+    "description": "Samples of legal writing I've written."
+  },
+  {
+    "name": "Editorial Writing",
+    "slug": "editorial-writing",
+    "description": "Articles I've written for publications."
+  },
+  {
+    "name": "Designs",
+    "slug": "designs",
+    "description": "Case studies for websites I've worked on."
+  }
+]
