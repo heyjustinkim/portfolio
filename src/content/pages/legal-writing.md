@@ -15,7 +15,7 @@ description: Samples of legal documents I've drafted.
 
 ## Legal Writing
 
-Samples of legal documents I've drafted. You can view and/or download them on Google Drive.
+Samples of legal documents I've drafted. You can view and/or download them on Google Drive by clicking the links below.
 
 - <a href="https://drive.google.com/file/d/1w2LRdPM1Rn31RbL-MOmSFjH9oLYf7DpZ/view?usp=sharing" target="_blank">Appellate Brief Sample</a>
 - <a href="https://drive.google.com/file/d/1dcrjn5F_uHG8OoV46-fG7u7AibqiCcGM/view?usp=sharing" target="_blank">Memorandum of Points and Authorities Sample</a>
