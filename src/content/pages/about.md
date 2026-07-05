@@ -5,7 +5,7 @@ description: Learn about Justin here.
 
 ## About Me
 
-Justin is a Paralegal Student currently attending Mt. San Antonio College's Paralegal/Legal Assistant program. He anticipates graduating with an Associate Degree and Certificate in June 2026.
+Justin Kim is a Paralegal who graduated with a certificate from Mt. San Antonio College's Paralegal/Legal Assistant program in June 2026.
 
 He attended the University of California San Diego (UCSD) for a Bachelor of Science degree in Cognitive Science: Human-Computer Interaction. After graduating from UCSD in 2019, he began a career as a User Experience (UX) Generalist and consulted on UX matters for startups. Justin has worked on a variety of projects ranging from Artificial Intelligence to online publications. Along the way he honed his skills in UX Design, User Research, Web Development, and Content Writing.
 

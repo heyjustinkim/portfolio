@@ -8,8 +8,12 @@ import SearchModal from "../blocks/SearchModal.astro";
 import SearchBox from "./SearchBox.astro";
 ---
 
-<aside
+<!-- <aside
   class="flex w-full flex-col border-b border-border bg-muted/20 p-6 md:w-[35%] md:border-r md:border-b-0 md:p-12"
+  data-pagefind-ignore="all"
+> -->
+<aside
+  class="flex w-full flex-col border-b border-border bg-muted/20 p-6"
   data-pagefind-ignore="all"
 >
   <Brand />
@@ -18,12 +22,14 @@ import SearchBox from "./SearchBox.astro";
 
   <Nav />
 
-  <div class="mt-8 flex items-center justify-between md:mt-14">
+  <!-- <div class="mt-8 flex items-center justify-between md:mt-14"> -->
+  <div class="mt-10 flex items-center justify-around">
     <div class="flex gap-4 text-muted-foreground/60">
       {
         site.social.map((item) => (
           <a
             href={item.href}
+            target={item.target}
             class="cursor-pointer transition-colors hover:text-primary"
             aria-label={item.name}
           >

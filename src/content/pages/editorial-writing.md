@@ -21,8 +21,11 @@ A collection of my published works as a writer.
 
 <!-- #### Legal articles -->
 
-- [Cybersecurity & Data Privacy in Federal Practice: What Paralegals Must Understand in 2025](https://drive.google.com/file/d/1uWFaeGeQpi9Q8W0tktaGuEX8tMLv0fiT/view) - Student Perspective - LAPA Reporter, August 2025
-- [The Ongoing Housing Crisis and Eviction Law Updates in L.A. County](https://www.linkedin.com/posts/los-angeles-paralegal-assn_june-2025-lapa-reporter-activity-7336865339441369090-PbIZ/) - Student Perspective - LAPA Reporter, June 2025
+<!-- - [Cybersecurity & Data Privacy in Federal Practice: What Paralegals Must Understand in 2025](https://drive.google.com/file/d/1uWFaeGeQpi9Q8W0tktaGuEX8tMLv0fiT/view) - Student Perspective - LAPA Reporter, August 2025
+- [The Ongoing Housing Crisis and Eviction Law Updates in L.A. County](https://www.linkedin.com/posts/los-angeles-paralegal-assn_june-2025-lapa-reporter-activity-7336865339441369090-PbIZ/) - Student Perspective - LAPA Reporter, June 2025 -->
+
+- <a href="https://drive.google.com/file/d/1uWFaeGeQpi9Q8W0tktaGuEX8tMLv0fiT/view" target="_blank">Cybersecurity & Data Privacy in Federal Practice: What Paralegals Must Understand in 2025</a> - Student Perspective - LAPA Reporter, August 2025
+- <a href="https://www.linkedin.com/posts/los-angeles-paralegal-assn_june-2025-lapa-reporter-activity-7336865339441369090-PbIZ/" target="_blank">The Ongoing Housing Crisis and Eviction Law Updates in L.A. County</a> - Student Perspective - LAPA Reporter, June 2025
 
 <!-- #### Game reviews -->
 

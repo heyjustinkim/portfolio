@@ -5,8 +5,11 @@ import { Icon } from "astro-icon/components";
 const currentPath = Astro.url.pathname;
 ---
 
-<nav
+<!-- <nav
   class="no-scrollbar flex flex-1 flex-wrap gap-4 overflow-x-auto max-md:justify-between md:flex-col md:gap-4 md:overflow-x-visible"
+> -->
+<nav
+  class="no-scrollbar flex flex-1 flex-wrap justify-center gap-4 overflow-x-auto"
 >
   {
     site.navigation.map((item) => {
