@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.3",
-    "@astrojs/rss": "^4.0.14",
+    "@astrojs/rss": "^4.0.19",
     "@astrojs/sitemap": "^3.6.0",
     "@tailwindcss/vite": "^4.3.3",
     "artalk": "^2.9.1",
